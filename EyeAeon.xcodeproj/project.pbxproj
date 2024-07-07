@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DAF36CD22C3A207B00CAC7C8 /* EyeAeonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF36CD12C3A207B00CAC7C8 /* EyeAeonApp.swift */; };
+		DAF36CD42C3A207B00CAC7C8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF36CD32C3A207B00CAC7C8 /* ContentView.swift */; };
+		DAF36CD62C3A207D00CAC7C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAF36CD52C3A207D00CAC7C8 /* Assets.xcassets */; };
+		DAF36CDA2C3A207D00CAC7C8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAF36CD92C3A207D00CAC7C8 /* Preview Assets.xcassets */; };
+		DAF36CE42C3A207E00CAC7C8 /* EyeAeonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF36CE32C3A207E00CAC7C8 /* EyeAeonTests.swift */; };
+		DAF36CEE2C3A207E00CAC7C8 /* EyeAeonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF36CED2C3A207E00CAC7C8 /* EyeAeonUITests.swift */; };
+		DAF36CF02C3A207E00CAC7C8 /* EyeAeonUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF36CEF2C3A207E00CAC7C8 /* EyeAeonUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DAF36CE02C3A207E00CAC7C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAF36CC62C3A207B00CAC7C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAF36CCD2C3A207B00CAC7C8;
+			remoteInfo = EyeAeon;
+		};
+		DAF36CEA2C3A207E00CAC7C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAF36CC62C3A207B00CAC7C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAF36CCD2C3A207B00CAC7C8;
+			remoteInfo = EyeAeon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DAF36CCE2C3A207B00CAC7C8 /* EyeAeon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EyeAeon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAF36CD12C3A207B00CAC7C8 /* EyeAeonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EyeAeonApp.swift; sourceTree = "<group>"; };
+		DAF36CD32C3A207B00CAC7C8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DAF36CD52C3A207D00CAC7C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DAF36CD72C3A207D00CAC7C8 /* EyeAeon.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EyeAeon.entitlements; sourceTree = "<group>"; };
+		DAF36CD92C3A207D00CAC7C8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DAF36CDF2C3A207E00CAC7C8 /* EyeAeonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EyeAeonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAF36CE32C3A207E00CAC7C8 /* EyeAeonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EyeAeonTests.swift; sourceTree = "<group>"; };
+		DAF36CE92C3A207E00CAC7C8 /* EyeAeonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EyeAeonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAF36CED2C3A207E00CAC7C8 /* EyeAeonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EyeAeonUITests.swift; sourceTree = "<group>"; };
+		DAF36CEF2C3A207E00CAC7C8 /* EyeAeonUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EyeAeonUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DAF36CCB2C3A207B00CAC7C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAF36CDC2C3A207E00CAC7C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAF36CE62C3A207E00CAC7C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DAF36CC52C3A207B00CAC7C8 = {
+			isa = PBXGroup;
+			children = (
+				DAF36CD02C3A207B00CAC7C8 /* EyeAeon */,
+				DAF36CE22C3A207E00CAC7C8 /* EyeAeonTests */,
+				DAF36CEC2C3A207E00CAC7C8 /* EyeAeonUITests */,
+				DAF36CCF2C3A207B00CAC7C8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DAF36CCF2C3A207B00CAC7C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAF36CCE2C3A207B00CAC7C8 /* EyeAeon.app */,
+				DAF36CDF2C3A207E00CAC7C8 /* EyeAeonTests.xctest */,
+				DAF36CE92C3A207E00CAC7C8 /* EyeAeonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DAF36CD02C3A207B00CAC7C8 /* EyeAeon */ = {
+			isa = PBXGroup;
+			children = (
+				DAF36CD12C3A207B00CAC7C8 /* EyeAeonApp.swift */,
+				DAF36CD32C3A207B00CAC7C8 /* ContentView.swift */,
+				DAF36CD52C3A207D00CAC7C8 /* Assets.xcassets */,
+				DAF36CD72C3A207D00CAC7C8 /* EyeAeon.entitlements */,
+				DAF36CD82C3A207D00CAC7C8 /* Preview Content */,
+			);
+			path = EyeAeon;
+			sourceTree = "<group>";
+		};
+		DAF36CD82C3A207D00CAC7C8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DAF36CD92C3A207D00CAC7C8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DAF36CE22C3A207E00CAC7C8 /* EyeAeonTests */ = {
+			isa = PBXGroup;
+			children = (
+				DAF36CE32C3A207E00CAC7C8 /* EyeAeonTests.swift */,
+			);
+			path = EyeAeonTests;
+			sourceTree = "<group>";
+		};
+		DAF36CEC2C3A207E00CAC7C8 /* EyeAeonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DAF36CED2C3A207E00CAC7C8 /* EyeAeonUITests.swift */,
+				DAF36CEF2C3A207E00CAC7C8 /* EyeAeonUITestsLaunchTests.swift */,
+			);
+			path = EyeAeonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DAF36CCD2C3A207B00CAC7C8 /* EyeAeon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAF36CF32C3A207E00CAC7C8 /* Build configuration list for PBXNativeTarget "EyeAeon" */;
+			buildPhases = (
+				DAF36CCA2C3A207B00CAC7C8 /* Sources */,
+				DAF36CCB2C3A207B00CAC7C8 /* Frameworks */,
+				DAF36CCC2C3A207B00CAC7C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EyeAeon;
+			productName = EyeAeon;
+			productReference = DAF36CCE2C3A207B00CAC7C8 /* EyeAeon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DAF36CDE2C3A207E00CAC7C8 /* EyeAeonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAF36CF62C3A207E00CAC7C8 /* Build configuration list for PBXNativeTarget "EyeAeonTests" */;
+			buildPhases = (
+				DAF36CDB2C3A207E00CAC7C8 /* Sources */,
+				DAF36CDC2C3A207E00CAC7C8 /* Frameworks */,
+				DAF36CDD2C3A207E00CAC7C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAF36CE12C3A207E00CAC7C8 /* PBXTargetDependency */,
+			);
+			name = EyeAeonTests;
+			productName = EyeAeonTests;
+			productReference = DAF36CDF2C3A207E00CAC7C8 /* EyeAeonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DAF36CE82C3A207E00CAC7C8 /* EyeAeonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAF36CF92C3A207E00CAC7C8 /* Build configuration list for PBXNativeTarget "EyeAeonUITests" */;
+			buildPhases = (
+				DAF36CE52C3A207E00CAC7C8 /* Sources */,
+				DAF36CE62C3A207E00CAC7C8 /* Frameworks */,
+				DAF36CE72C3A207E00CAC7C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAF36CEB2C3A207E00CAC7C8 /* PBXTargetDependency */,
+			);
+			name = EyeAeonUITests;
+			productName = EyeAeonUITests;
+			productReference = DAF36CE92C3A207E00CAC7C8 /* EyeAeonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DAF36CC62C3A207B00CAC7C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					DAF36CCD2C3A207B00CAC7C8 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					DAF36CDE2C3A207E00CAC7C8 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = DAF36CCD2C3A207B00CAC7C8;
+					};
+					DAF36CE82C3A207E00CAC7C8 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = DAF36CCD2C3A207B00CAC7C8;
+					};
+				};
+			};
+			buildConfigurationList = DAF36CC92C3A207B00CAC7C8 /* Build configuration list for PBXProject "EyeAeon" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DAF36CC52C3A207B00CAC7C8;
+			productRefGroup = DAF36CCF2C3A207B00CAC7C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DAF36CCD2C3A207B00CAC7C8 /* EyeAeon */,
+				DAF36CDE2C3A207E00CAC7C8 /* EyeAeonTests */,
+				DAF36CE82C3A207E00CAC7C8 /* EyeAeonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DAF36CCC2C3A207B00CAC7C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAF36CDA2C3A207D00CAC7C8 /* Preview Assets.xcassets in Resources */,
+				DAF36CD62C3A207D00CAC7C8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAF36CDD2C3A207E00CAC7C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAF36CE72C3A207E00CAC7C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DAF36CCA2C3A207B00CAC7C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAF36CD42C3A207B00CAC7C8 /* ContentView.swift in Sources */,
+				DAF36CD22C3A207B00CAC7C8 /* EyeAeonApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAF36CDB2C3A207E00CAC7C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAF36CE42C3A207E00CAC7C8 /* EyeAeonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAF36CE52C3A207E00CAC7C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAF36CEE2C3A207E00CAC7C8 /* EyeAeonUITests.swift in Sources */,
+				DAF36CF02C3A207E00CAC7C8 /* EyeAeonUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DAF36CE12C3A207E00CAC7C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAF36CCD2C3A207B00CAC7C8 /* EyeAeon */;
+			targetProxy = DAF36CE02C3A207E00CAC7C8 /* PBXContainerItemProxy */;
+		};
+		DAF36CEB2C3A207E00CAC7C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAF36CCD2C3A207B00CAC7C8 /* EyeAeon */;
+			targetProxy = DAF36CEA2C3A207E00CAC7C8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DAF36CF12C3A207E00CAC7C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DAF36CF22C3A207E00CAC7C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		DAF36CF42C3A207E00CAC7C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = EyeAeon/EyeAeon.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EyeAeon/Preview Content\"";
+				DEVELOPMENT_TEAM = QFQW29JWKY;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.davalcato.EyeAeon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DAF36CF52C3A207E00CAC7C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = EyeAeon/EyeAeon.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EyeAeon/Preview Content\"";
+				DEVELOPMENT_TEAM = QFQW29JWKY;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.davalcato.EyeAeon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DAF36CF72C3A207E00CAC7C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QFQW29JWKY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.davalcato.EyeAeonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EyeAeon.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EyeAeon";
+			};
+			name = Debug;
+		};
+		DAF36CF82C3A207E00CAC7C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QFQW29JWKY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.davalcato.EyeAeonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EyeAeon.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EyeAeon";
+			};
+			name = Release;
+		};
+		DAF36CFA2C3A207E00CAC7C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QFQW29JWKY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.davalcato.EyeAeonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EyeAeon;
+			};
+			name = Debug;
+		};
+		DAF36CFB2C3A207E00CAC7C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QFQW29JWKY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.davalcato.EyeAeonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EyeAeon;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DAF36CC92C3A207B00CAC7C8 /* Build configuration list for PBXProject "EyeAeon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAF36CF12C3A207E00CAC7C8 /* Debug */,
+				DAF36CF22C3A207E00CAC7C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAF36CF32C3A207E00CAC7C8 /* Build configuration list for PBXNativeTarget "EyeAeon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAF36CF42C3A207E00CAC7C8 /* Debug */,
+				DAF36CF52C3A207E00CAC7C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAF36CF62C3A207E00CAC7C8 /* Build configuration list for PBXNativeTarget "EyeAeonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAF36CF72C3A207E00CAC7C8 /* Debug */,
+				DAF36CF82C3A207E00CAC7C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAF36CF92C3A207E00CAC7C8 /* Build configuration list for PBXNativeTarget "EyeAeonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAF36CFA2C3A207E00CAC7C8 /* Debug */,
+				DAF36CFB2C3A207E00CAC7C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DAF36CC62C3A207B00CAC7C8 /* Project object */;
+}
