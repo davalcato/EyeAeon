@@ -7,6 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		812F397C4CBCDEF0E6FBA616 /* Pods_EyeAeon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD530D4B55BA021A9EEBE040 /* Pods_EyeAeon.framework */; };
+		DA09FF3A2C3A22C800A37750 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA09FF392C3A22C800A37750 /* SplashScreenView.swift */; };
+		DA09FF3C2C3A25E000A37750 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA09FF3B2C3A25E000A37750 /* LoginView.swift */; };
+		DA09FF3E2C3CC9F700A37750 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA09FF3D2C3CC9F700A37750 /* CustomTextField.swift */; };
+		DA09FF402C3E048F00A37750 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA09FF3F2C3E048F00A37750 /* LoginViewModel.swift */; };
+		DA09FF422C3E06F300A37750 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA09FF412C3E06F300A37750 /* MainView.swift */; };
+		DA09FF452C3F6F8300A37750 /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA09FF442C3F6F8300A37750 /* SignupView.swift */; };
+		DA1E12F62C45B3FE0079EF85 /* MainPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1E12F52C45B3FE0079EF85 /* MainPageView.swift */; };
+		DA1E12F82C45BC270079EF85 /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1E12F72C45BC270079EF85 /* View+Extensions.swift */; };
+		DA1E12FA2C45D9160079EF85 /* TextDetectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1E12F92C45D9160079EF85 /* TextDetectionView.swift */; };
+		DA1E12FC2C486C210079EF85 /* ImagePickerCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1E12FB2C486C210079EF85 /* ImagePickerCoordinator.swift */; };
+		DA1E12FE2C48822E0079EF85 /* ImageDetectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1E12FD2C48822E0079EF85 /* ImageDetectionView.swift */; };
+		DA1E13002C48824C0079EF85 /* VideoDetectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1E12FF2C48824C0079EF85 /* VideoDetectionView.swift */; };
+		DA1E13022C4882680079EF85 /* AudioDetectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1E13012C4882680079EF85 /* AudioDetectionView.swift */; };
+		DA2E83E62C55A6AA00052F50 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2E83E52C55A6AA00052F50 /* UserModel.swift */; };
+		DA2E83E82C55A80D00052F50 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2E83E72C55A80D00052F50 /* ProfileView.swift */; };
+		DA2E83EA2C55A87100052F50 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2E83E92C55A87100052F50 /* ImagePicker.swift */; };
+		DA94F7D72C571B080047FD5F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA94F7D62C571B080047FD5F /* SceneDelegate.swift */; };
+		DA94F7D92C59B93F0047FD5F /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA94F7D82C59B93F0047FD5F /* AppState.swift */; };
+		DAAFCD342C4F173000120A14 /* Starbucks.m4a in Resources */ = {isa = PBXBuildFile; fileRef = DAAFCD332C4F173000120A14 /* Starbucks.m4a */; };
+		DAAFCD3A2C505D5D00120A14 /* SharedDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAFCD392C505D5D00120A14 /* SharedDataModel.swift */; };
+		DAAFCD3C2C505E6100120A14 /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAFCD3B2C505E6100120A14 /* AudioPlayer.swift */; };
 		DAF36CD22C3A207B00CAC7C8 /* EyeAeonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF36CD12C3A207B00CAC7C8 /* EyeAeonApp.swift */; };
 		DAF36CD42C3A207B00CAC7C8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF36CD32C3A207B00CAC7C8 /* ContentView.swift */; };
 		DAF36CD62C3A207D00CAC7C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAF36CD52C3A207D00CAC7C8 /* Assets.xcassets */; };
@@ -14,6 +36,8 @@
 		DAF36CE42C3A207E00CAC7C8 /* EyeAeonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF36CE32C3A207E00CAC7C8 /* EyeAeonTests.swift */; };
 		DAF36CEE2C3A207E00CAC7C8 /* EyeAeonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF36CED2C3A207E00CAC7C8 /* EyeAeonUITests.swift */; };
 		DAF36CF02C3A207E00CAC7C8 /* EyeAeonUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF36CEF2C3A207E00CAC7C8 /* EyeAeonUITestsLaunchTests.swift */; };
+		F4B9DB4894843DF8F8D9FF16 /* Pods_EyeAeon_EyeAeonUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77BEDBA00B1D63E396875D29 /* Pods_EyeAeon_EyeAeonUITests.framework */; };
+		FD7F891112F6D0B3D1D2EF05 /* Pods_EyeAeonTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5A2E6260CABF6E5D1B4EA6 /* Pods_EyeAeonTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +58,33 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3D5A2E6260CABF6E5D1B4EA6 /* Pods_EyeAeonTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EyeAeonTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FCA55103844EE78112BD78C /* Pods-EyeAeonTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EyeAeonTests.release.xcconfig"; path = "Target Support Files/Pods-EyeAeonTests/Pods-EyeAeonTests.release.xcconfig"; sourceTree = "<group>"; };
+		503E7882A7037F6685EB46FF /* Pods-EyeAeon-EyeAeonUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EyeAeon-EyeAeonUITests.release.xcconfig"; path = "Target Support Files/Pods-EyeAeon-EyeAeonUITests/Pods-EyeAeon-EyeAeonUITests.release.xcconfig"; sourceTree = "<group>"; };
+		77BEDBA00B1D63E396875D29 /* Pods_EyeAeon_EyeAeonUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EyeAeon_EyeAeonUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE170852A4C4ADAED69B2F2C /* Pods-EyeAeon-EyeAeonUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EyeAeon-EyeAeonUITests.debug.xcconfig"; path = "Target Support Files/Pods-EyeAeon-EyeAeonUITests/Pods-EyeAeon-EyeAeonUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B631356EEEE5FB61C417A223 /* Pods-EyeAeon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EyeAeon.release.xcconfig"; path = "Target Support Files/Pods-EyeAeon/Pods-EyeAeon.release.xcconfig"; sourceTree = "<group>"; };
+		DA09FF392C3A22C800A37750 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		DA09FF3B2C3A25E000A37750 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		DA09FF3D2C3CC9F700A37750 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		DA09FF3F2C3E048F00A37750 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		DA09FF412C3E06F300A37750 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		DA09FF442C3F6F8300A37750 /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
+		DA1E12F52C45B3FE0079EF85 /* MainPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageView.swift; sourceTree = "<group>"; };
+		DA1E12F72C45BC270079EF85 /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+		DA1E12F92C45D9160079EF85 /* TextDetectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextDetectionView.swift; sourceTree = "<group>"; };
+		DA1E12FB2C486C210079EF85 /* ImagePickerCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerCoordinator.swift; sourceTree = "<group>"; };
+		DA1E12FD2C48822E0079EF85 /* ImageDetectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDetectionView.swift; sourceTree = "<group>"; };
+		DA1E12FF2C48824C0079EF85 /* VideoDetectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoDetectionView.swift; sourceTree = "<group>"; };
+		DA1E13012C4882680079EF85 /* AudioDetectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioDetectionView.swift; sourceTree = "<group>"; };
+		DA2E83E52C55A6AA00052F50 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		DA2E83E72C55A80D00052F50 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		DA2E83E92C55A87100052F50 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		DA94F7D62C571B080047FD5F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DA94F7D82C59B93F0047FD5F /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		DAAFCD332C4F173000120A14 /* Starbucks.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Starbucks.m4a; sourceTree = "<group>"; };
+		DAAFCD392C505D5D00120A14 /* SharedDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedDataModel.swift; sourceTree = "<group>"; };
+		DAAFCD3B2C505E6100120A14 /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
 		DAF36CCE2C3A207B00CAC7C8 /* EyeAeon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EyeAeon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAF36CD12C3A207B00CAC7C8 /* EyeAeonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EyeAeonApp.swift; sourceTree = "<group>"; };
 		DAF36CD32C3A207B00CAC7C8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +96,9 @@
 		DAF36CE92C3A207E00CAC7C8 /* EyeAeonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EyeAeonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAF36CED2C3A207E00CAC7C8 /* EyeAeonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EyeAeonUITests.swift; sourceTree = "<group>"; };
 		DAF36CEF2C3A207E00CAC7C8 /* EyeAeonUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EyeAeonUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DD530D4B55BA021A9EEBE040 /* Pods_EyeAeon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EyeAeon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFC58F598CCB75E5EEB239E5 /* Pods-EyeAeonTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EyeAeonTests.debug.xcconfig"; path = "Target Support Files/Pods-EyeAeonTests/Pods-EyeAeonTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F2675E8956B465AA1C240325 /* Pods-EyeAeon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EyeAeon.debug.xcconfig"; path = "Target Support Files/Pods-EyeAeon/Pods-EyeAeon.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				812F397C4CBCDEF0E6FBA616 /* Pods_EyeAeon.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD7F891112F6D0B3D1D2EF05 /* Pods_EyeAeonTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,12 +122,70 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4B9DB4894843DF8F8D9FF16 /* Pods_EyeAeon_EyeAeonUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		408961FE163C19B95F12E1B1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD530D4B55BA021A9EEBE040 /* Pods_EyeAeon.framework */,
+				77BEDBA00B1D63E396875D29 /* Pods_EyeAeon_EyeAeonUITests.framework */,
+				3D5A2E6260CABF6E5D1B4EA6 /* Pods_EyeAeonTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA1E12F22C45AFCF0079EF85 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DA94F7D62C571B080047FD5F /* SceneDelegate.swift */,
+				DA1E12F72C45BC270079EF85 /* View+Extensions.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DA1E12F32C45AFDA0079EF85 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				DA09FF3D2C3CC9F700A37750 /* CustomTextField.swift */,
+				DAAFCD392C505D5D00120A14 /* SharedDataModel.swift */,
+				DA09FF3F2C3E048F00A37750 /* LoginViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		DA1E12F42C45AFE60079EF85 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DA09FF392C3A22C800A37750 /* SplashScreenView.swift */,
+				DA09FF3B2C3A25E000A37750 /* LoginView.swift */,
+				DA1E12F92C45D9160079EF85 /* TextDetectionView.swift */,
+				DA1E12FD2C48822E0079EF85 /* ImageDetectionView.swift */,
+				DA1E12FF2C48824C0079EF85 /* VideoDetectionView.swift */,
+				DA1E13012C4882680079EF85 /* AudioDetectionView.swift */,
+				DA09FF442C3F6F8300A37750 /* SignupView.swift */,
+				DA1E12FB2C486C210079EF85 /* ImagePickerCoordinator.swift */,
+				DAF36CD32C3A207B00CAC7C8 /* ContentView.swift */,
+				DA09FF412C3E06F300A37750 /* MainView.swift */,
+				DA1E12F52C45B3FE0079EF85 /* MainPageView.swift */,
+				DA94F7D82C59B93F0047FD5F /* AppState.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DAAFCD322C4F170F00120A14 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				DAAFCD3B2C505E6100120A14 /* AudioPlayer.swift */,
+				DAAFCD332C4F173000120A14 /* Starbucks.m4a */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
 		DAF36CC52C3A207B00CAC7C8 = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +193,8 @@
 				DAF36CE22C3A207E00CAC7C8 /* EyeAeonTests */,
 				DAF36CEC2C3A207E00CAC7C8 /* EyeAeonUITests */,
 				DAF36CCF2C3A207B00CAC7C8 /* Products */,
+				F44E2CFC1FABEAEC34F09631 /* Pods */,
+				408961FE163C19B95F12E1B1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,8 +211,14 @@
 		DAF36CD02C3A207B00CAC7C8 /* EyeAeon */ = {
 			isa = PBXGroup;
 			children = (
+				DAAFCD322C4F170F00120A14 /* Audio */,
+				DA1E12F42C45AFE60079EF85 /* View */,
+				DA1E12F32C45AFDA0079EF85 /* ViewModel */,
+				DA1E12F22C45AFCF0079EF85 /* Model */,
 				DAF36CD12C3A207B00CAC7C8 /* EyeAeonApp.swift */,
-				DAF36CD32C3A207B00CAC7C8 /* ContentView.swift */,
+				DA2E83E52C55A6AA00052F50 /* UserModel.swift */,
+				DA2E83E72C55A80D00052F50 /* ProfileView.swift */,
+				DA2E83E92C55A87100052F50 /* ImagePicker.swift */,
 				DAF36CD52C3A207D00CAC7C8 /* Assets.xcassets */,
 				DAF36CD72C3A207D00CAC7C8 /* EyeAeon.entitlements */,
 				DAF36CD82C3A207D00CAC7C8 /* Preview Content */,
@@ -129,6 +251,19 @@
 			path = EyeAeonUITests;
 			sourceTree = "<group>";
 		};
+		F44E2CFC1FABEAEC34F09631 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F2675E8956B465AA1C240325 /* Pods-EyeAeon.debug.xcconfig */,
+				B631356EEEE5FB61C417A223 /* Pods-EyeAeon.release.xcconfig */,
+				AE170852A4C4ADAED69B2F2C /* Pods-EyeAeon-EyeAeonUITests.debug.xcconfig */,
+				503E7882A7037F6685EB46FF /* Pods-EyeAeon-EyeAeonUITests.release.xcconfig */,
+				EFC58F598CCB75E5EEB239E5 /* Pods-EyeAeonTests.debug.xcconfig */,
+				3FCA55103844EE78112BD78C /* Pods-EyeAeonTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -136,9 +271,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DAF36CF32C3A207E00CAC7C8 /* Build configuration list for PBXNativeTarget "EyeAeon" */;
 			buildPhases = (
+				01C6ADFF5C8278305977394F /* [CP] Check Pods Manifest.lock */,
 				DAF36CCA2C3A207B00CAC7C8 /* Sources */,
 				DAF36CCB2C3A207B00CAC7C8 /* Frameworks */,
 				DAF36CCC2C3A207B00CAC7C8 /* Resources */,
+				8B6E5B2BD48451037C82F4A5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -153,6 +290,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DAF36CF62C3A207E00CAC7C8 /* Build configuration list for PBXNativeTarget "EyeAeonTests" */;
 			buildPhases = (
+				971EE76035E7E1B834631B46 /* [CP] Check Pods Manifest.lock */,
 				DAF36CDB2C3A207E00CAC7C8 /* Sources */,
 				DAF36CDC2C3A207E00CAC7C8 /* Frameworks */,
 				DAF36CDD2C3A207E00CAC7C8 /* Resources */,
@@ -171,9 +309,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DAF36CF92C3A207E00CAC7C8 /* Build configuration list for PBXNativeTarget "EyeAeonUITests" */;
 			buildPhases = (
+				5AD58342A4C8D846B9553557 /* [CP] Check Pods Manifest.lock */,
 				DAF36CE52C3A207E00CAC7C8 /* Sources */,
 				DAF36CE62C3A207E00CAC7C8 /* Frameworks */,
 				DAF36CE72C3A207E00CAC7C8 /* Resources */,
+				CB70CECB0D44EC989DADA16A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -217,6 +357,9 @@
 				Base,
 			);
 			mainGroup = DAF36CC52C3A207B00CAC7C8;
+			packageReferences = (
+				DA09FF432C3E07FF00A37750 /* XCRemoteSwiftPackageReference "keychain-swift" */,
+			);
 			productRefGroup = DAF36CCF2C3A207B00CAC7C8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,6 +376,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAAFCD342C4F173000120A14 /* Starbucks.m4a in Resources */,
 				DAF36CDA2C3A207D00CAC7C8 /* Preview Assets.xcassets in Resources */,
 				DAF36CD62C3A207D00CAC7C8 /* Assets.xcassets in Resources */,
 			);
@@ -254,13 +398,136 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		01C6ADFF5C8278305977394F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EyeAeon-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5AD58342A4C8D846B9553557 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EyeAeon-EyeAeonUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B6E5B2BD48451037C82F4A5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EyeAeon/Pods-EyeAeon-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EyeAeon/Pods-EyeAeon-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EyeAeon/Pods-EyeAeon-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		971EE76035E7E1B834631B46 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EyeAeonTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB70CECB0D44EC989DADA16A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EyeAeon-EyeAeonUITests/Pods-EyeAeon-EyeAeonUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EyeAeon-EyeAeonUITests/Pods-EyeAeon-EyeAeonUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EyeAeon-EyeAeonUITests/Pods-EyeAeon-EyeAeonUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DAF36CCA2C3A207B00CAC7C8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				DAF36CD42C3A207B00CAC7C8 /* ContentView.swift in Sources */,
+				DA1E13022C4882680079EF85 /* AudioDetectionView.swift in Sources */,
+				DA2E83E62C55A6AA00052F50 /* UserModel.swift in Sources */,
+				DAAFCD3A2C505D5D00120A14 /* SharedDataModel.swift in Sources */,
+				DA1E12FE2C48822E0079EF85 /* ImageDetectionView.swift in Sources */,
+				DA09FF422C3E06F300A37750 /* MainView.swift in Sources */,
 				DAF36CD22C3A207B00CAC7C8 /* EyeAeonApp.swift in Sources */,
+				DA09FF402C3E048F00A37750 /* LoginViewModel.swift in Sources */,
+				DA94F7D72C571B080047FD5F /* SceneDelegate.swift in Sources */,
+				DA09FF452C3F6F8300A37750 /* SignupView.swift in Sources */,
+				DA1E13002C48824C0079EF85 /* VideoDetectionView.swift in Sources */,
+				DA09FF3C2C3A25E000A37750 /* LoginView.swift in Sources */,
+				DAAFCD3C2C505E6100120A14 /* AudioPlayer.swift in Sources */,
+				DA09FF3A2C3A22C800A37750 /* SplashScreenView.swift in Sources */,
+				DA1E12FA2C45D9160079EF85 /* TextDetectionView.swift in Sources */,
+				DA1E12FC2C486C210079EF85 /* ImagePickerCoordinator.swift in Sources */,
+				DA09FF3E2C3CC9F700A37750 /* CustomTextField.swift in Sources */,
+				DA94F7D92C59B93F0047FD5F /* AppState.swift in Sources */,
+				DA2E83E82C55A80D00052F50 /* ProfileView.swift in Sources */,
+				DA2E83EA2C55A87100052F50 /* ImagePicker.swift in Sources */,
+				DA1E12F82C45BC270079EF85 /* View+Extensions.swift in Sources */,
+				DA1E12F62C45B3FE0079EF85 /* MainPageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,7 +601,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -395,7 +662,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -413,6 +680,7 @@
 		};
 		DAF36CF42C3A207E00CAC7C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2675E8956B465AA1C240325 /* Pods-EyeAeon.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -451,6 +719,7 @@
 		};
 		DAF36CF52C3A207E00CAC7C8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B631356EEEE5FB61C417A223 /* Pods-EyeAeon.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -489,6 +758,7 @@
 		};
 		DAF36CF72C3A207E00CAC7C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFC58F598CCB75E5EEB239E5 /* Pods-EyeAeonTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +782,7 @@
 		};
 		DAF36CF82C3A207E00CAC7C8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FCA55103844EE78112BD78C /* Pods-EyeAeonTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -535,6 +806,7 @@
 		};
 		DAF36CFA2C3A207E00CAC7C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE170852A4C4ADAED69B2F2C /* Pods-EyeAeon-EyeAeonUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -557,6 +829,7 @@
 		};
 		DAF36CFB2C3A207E00CAC7C8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 503E7882A7037F6685EB46FF /* Pods-EyeAeon-EyeAeonUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -617,6 +890,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DA09FF432C3E07FF00A37750 /* XCRemoteSwiftPackageReference "keychain-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/evgenyneu/keychain-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 24.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = DAF36CC62C3A207B00CAC7C8 /* Project object */;
 }
