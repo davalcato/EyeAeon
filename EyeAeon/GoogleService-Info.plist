@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>808066163689-7ql6v6e8u0a8llc6nhh2duojegbc2f33.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.808066163689-7ql6v6e8u0a8llc6nhh2duojegbc2f33</string>
+	<key>API_KEY</key>
+	<string>AIzaSyB5hNwG-5daoWyvy4BplO9HXghHLbiWpUI</string>
+	<key>GCM_SENDER_ID</key>
+	<string>808066163689</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.davalcato.EyeAeon</string>
+	<key>PROJECT_ID</key>
+	<string>eyeaeon-c9745</string>
+	<key>STORAGE_BUCKET</key>
+	<string>eyeaeon-c9745.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:808066163689:ios:1c7681542c527abe352178</string>
+</dict>
+</plist>

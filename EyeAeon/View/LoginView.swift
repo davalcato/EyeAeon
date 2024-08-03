@@ -6,11 +6,38 @@
 //
 
 import SwiftUI
+import GoogleSignIn
+import FirebaseCore
+import FirebaseAuth
+
+// Extension to get the top-most view controller
+extension UIApplication {
+    var topMostViewController: UIViewController? {
+        guard let rootViewController = windows.first?.rootViewController else {
+            return nil
+        }
+        return getTopViewController(from: rootViewController)
+    }
+
+    private func getTopViewController(from rootViewController: UIViewController) -> UIViewController? {
+        if let presentedViewController = rootViewController.presentedViewController {
+            return getTopViewController(from: presentedViewController)
+        }
+        if let navigationController = rootViewController as? UINavigationController {
+            return navigationController.topViewController
+        }
+        if let tabBarController = rootViewController as? UITabBarController {
+            if let selected = tabBarController.selectedViewController {
+                return getTopViewController(from: selected)
+            }
+        }
+        return rootViewController
+    }
+}
 
 struct LoginView: View {
     @StateObject private var loginData = LoginViewModel()
     @State private var showErrorAlert = false
-    @State private var navigateToMainPage = false
     @State private var showSuccessMessage = false
     @State private var showFailureMessage = false
     @EnvironmentObject var appState: AppState
@@ -32,7 +59,7 @@ struct LoginView: View {
                 CustomTextField(
                     icon: "envelope",
                     title: "Email",
-                    hint: "example@gmail.com",
+                    hint: "example@example.com",
                     value: $loginData.email,
                     isSecure: false,
                     showPassword: .constant(false)
@@ -67,18 +94,17 @@ struct LoginView: View {
                     if loginData.registerUser {
                         if loginData.registerUserValid() {
                             loginData.register { success in
-                                if success {
-                                    showSuccessMessage = true
-                                    showFailureMessage = false
-                                    DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
-                                        withAnimation {
-                                            appState.isLoggedIn = true
-                                        }
+                                DispatchQueue.main.async {
+                                    if success {
+                                        print("Registration successful") // Debug print
+                                        showSuccessMessage = true
+                                        showFailureMessage = false
+                                        appState.isLoggedIn = true
+                                    } else {
+                                        print("Registration failed") // Debug print
+                                        showFailureMessage = true
+                                        showSuccessMessage = false
                                     }
-                                } else {
-                                    loginData.errorMessage = "Registration failed. Please try again."
-                                    showFailureMessage = true
-                                    showSuccessMessage = false
                                 }
                             }
                         } else {
@@ -87,11 +113,15 @@ struct LoginView: View {
                         }
                     } else {
                         if loginData.loginUserValid() {
-                            if loginData.login() {
-                                appState.isLoggedIn = true
-                            } else {
-                                loginData.errorMessage = "Incorrect email or password. Please try again."
-                                showErrorAlert = true
+                            loginData.login { success in
+                                DispatchQueue.main.async {
+                                    if success {
+                                        appState.isLoggedIn = true
+                                    } else {
+                                        loginData.errorMessage = "Incorrect email or password."
+                                        showErrorAlert = true
+                                    }
+                                }
                             }
                         } else {
                             loginData.errorMessage = "Email and password cannot be empty."
@@ -125,14 +155,21 @@ struct LoginView: View {
                         .padding(.top, 10)
                 }
 
-                NavigationLink(
-                    destination: MainPageView(),
-                    isActive: $navigateToMainPage
-                ) {
-                    EmptyView()
+                // Google Sign-In Button
+                Button(action: handleGoogleSignIn) {
+                    HStack {
+                        Image(systemName: "globe")
+                        Text("Sign in with Google")
+                    }
+                    .font(.headline)
+                    .foregroundColor(.white)
+                    .padding()
+                    .background(Color.red)
+                    .cornerRadius(8)
                 }
-                .hidden()
+                .padding(.top)
 
+                // Other UI components
                 Spacer()
 
                 Button(action: {
@@ -155,11 +192,30 @@ struct LoginView: View {
             )
         }
     }
+
+    private func handleGoogleSignIn() {
+        guard let clientID = FirebaseApp.app()?.options.clientID else { return }
+        GIDSignIn.sharedInstance.configuration = GIDConfiguration(clientID: clientID)
+
+        guard let topViewController = UIApplication.shared.topMostViewController else {
+            print("Unable to get top-most view controller.")
+            return
+        }
+
+        GIDSignIn.sharedInstance.signIn(withPresenting: topViewController) { result, error in
+            if let error = error {
+                print(error.localizedDescription)
+                return
+            }
+            guard result != nil else { return }
+            appState.isLoggedIn = true
+        }
+    }
 }
 
 struct LoginView_Previews: PreviewProvider {
     static var previews: some View {
         LoginView()
-            .environmentObject(AppState(isLoggedIn: false))
+            .environmentObject(AppState(isLoggedIn: true))
     }
 }

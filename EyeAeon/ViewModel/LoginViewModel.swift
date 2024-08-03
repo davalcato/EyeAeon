@@ -27,24 +27,24 @@ class LoginViewModel: ObservableObject {
     }
 
     func register(completion: @escaping (Bool) -> Void) {
-        // Save the credentials for simplicity; normally, you would use secure storage
+        // Store user data; replace with actual storage mechanism
         UserDefaults.standard.set(email, forKey: "email")
         UserDefaults.standard.set(password, forKey: "password")
         completion(true)
     }
 
-    func login() -> Bool {
-        // Retrieve the stored credentials
+    func login(completion: @escaping (Bool) -> Void) {
+        // Retrieve stored credentials
         let storedEmail = UserDefaults.standard.string(forKey: "email")
         let storedPassword = UserDefaults.standard.string(forKey: "password")
 
         // Check if the entered credentials match the stored credentials
         if email == storedEmail && password == storedPassword {
             isLoggedIn = true
-            return true
+            completion(true)
         } else {
             errorMessage = "Incorrect email or password. Please try again."
-            return false
+            completion(false)
         }
     }
 }

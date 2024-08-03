@@ -24,6 +24,8 @@
 		DA2E83E62C55A6AA00052F50 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2E83E52C55A6AA00052F50 /* UserModel.swift */; };
 		DA2E83E82C55A80D00052F50 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2E83E72C55A80D00052F50 /* ProfileView.swift */; };
 		DA2E83EA2C55A87100052F50 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2E83E92C55A87100052F50 /* ImagePicker.swift */; };
+		DA6CCD522C5DB4AF00342618 /* credentials.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA6CCD512C5DB4AF00342618 /* credentials.plist */; };
+		DA6CCD542C5DBF3800342618 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA6CCD532C5DBF3800342618 /* GoogleService-Info.plist */; };
 		DA94F7D72C571B080047FD5F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA94F7D62C571B080047FD5F /* SceneDelegate.swift */; };
 		DA94F7D92C59B93F0047FD5F /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA94F7D82C59B93F0047FD5F /* AppState.swift */; };
 		DAAFCD342C4F173000120A14 /* Starbucks.m4a in Resources */ = {isa = PBXBuildFile; fileRef = DAAFCD332C4F173000120A14 /* Starbucks.m4a */; };
@@ -80,6 +82,9 @@
 		DA2E83E52C55A6AA00052F50 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		DA2E83E72C55A80D00052F50 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		DA2E83E92C55A87100052F50 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		DA6CCD4E2C5DAEC800342618 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		DA6CCD512C5DB4AF00342618 /* credentials.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = credentials.plist; sourceTree = "<group>"; };
+		DA6CCD532C5DBF3800342618 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		DA94F7D62C571B080047FD5F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		DA94F7D82C59B93F0047FD5F /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
 		DAAFCD332C4F173000120A14 /* Starbucks.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Starbucks.m4a; sourceTree = "<group>"; };
@@ -163,6 +168,7 @@
 			children = (
 				DA09FF392C3A22C800A37750 /* SplashScreenView.swift */,
 				DA09FF3B2C3A25E000A37750 /* LoginView.swift */,
+				DA1E12F52C45B3FE0079EF85 /* MainPageView.swift */,
 				DA1E12F92C45D9160079EF85 /* TextDetectionView.swift */,
 				DA1E12FD2C48822E0079EF85 /* ImageDetectionView.swift */,
 				DA1E12FF2C48824C0079EF85 /* VideoDetectionView.swift */,
@@ -171,7 +177,6 @@
 				DA1E12FB2C486C210079EF85 /* ImagePickerCoordinator.swift */,
 				DAF36CD32C3A207B00CAC7C8 /* ContentView.swift */,
 				DA09FF412C3E06F300A37750 /* MainView.swift */,
-				DA1E12F52C45B3FE0079EF85 /* MainPageView.swift */,
 				DA94F7D82C59B93F0047FD5F /* AppState.swift */,
 			);
 			path = View;
@@ -211,6 +216,9 @@
 		DAF36CD02C3A207B00CAC7C8 /* EyeAeon */ = {
 			isa = PBXGroup;
 			children = (
+				DA6CCD532C5DBF3800342618 /* GoogleService-Info.plist */,
+				DA6CCD4E2C5DAEC800342618 /* Info.plist */,
+				DA6CCD512C5DB4AF00342618 /* credentials.plist */,
 				DAAFCD322C4F170F00120A14 /* Audio */,
 				DA1E12F42C45AFE60079EF85 /* View */,
 				DA1E12F32C45AFDA0079EF85 /* ViewModel */,
@@ -377,8 +385,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DAAFCD342C4F173000120A14 /* Starbucks.m4a in Resources */,
+				DA6CCD522C5DB4AF00342618 /* credentials.plist in Resources */,
 				DAF36CDA2C3A207D00CAC7C8 /* Preview Assets.xcassets in Resources */,
 				DAF36CD62C3A207D00CAC7C8 /* Assets.xcassets in Resources */,
+				DA6CCD542C5DBF3800342618 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -692,6 +702,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EyeAeon/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -731,6 +742,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EyeAeon/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;

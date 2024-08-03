@@ -8,6 +8,12 @@ target 'EyeAeon' do
   # Pods for EyeAeon
   pod 'Alamofire', '~> 5.4'
   pod 'SwiftyJSON', '~> 5.0'
+  pod 'GoogleSignIn'
+  pod 'FBSDKLoginKit'
+  pod 'GoogleSignInSwiftSupport'
+  pod 'Firebase/Core'
+  pod 'Firebase/Auth'
+  pod 'AppAuth'
 
   target 'EyeAeonTests' do
     inherit! :search_paths
@@ -15,8 +21,7 @@ target 'EyeAeon' do
   end
 
   target 'EyeAeonUITests' do
-    # Pods for testing
+    # Pods for UI testing
   end
 
 end
-
