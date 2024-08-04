@@ -9,6 +9,7 @@ import SwiftUI
 import GoogleSignIn
 import FirebaseCore
 import FirebaseAuth
+import FBSDKLoginKit
 
 // Extension to get the top-most view controller
 extension UIApplication {
@@ -32,6 +33,41 @@ extension UIApplication {
             }
         }
         return rootViewController
+    }
+}
+
+// SwiftUI wrapper for Facebook Login Button
+struct FacebookLoginButtonView: UIViewRepresentable {
+    func makeUIView(context: Context) -> FBLoginButton {
+        let loginButton = FBLoginButton()
+        loginButton.delegate = context.coordinator
+        return loginButton
+    }
+    
+    func updateUIView(_ uiView: FBLoginButton, context: Context) {
+        // Update the view if needed
+    }
+    
+    func makeCoordinator() -> Coordinator {
+        Coordinator()
+    }
+    
+    class Coordinator: NSObject, LoginButtonDelegate {
+        func loginButton(_ loginButton: FBLoginButton, didCompleteWith result: LoginManagerLoginResult?, error: Error?) {
+            if let error = error {
+                print("Failed to login: \(error.localizedDescription)")
+                return
+            }
+            
+            // Successfully logged in
+            if let token = AccessToken.current {
+                print("Access Token: \(token.tokenString)")
+            }
+        }
+        
+        func loginButtonDidLogOut(_ loginButton: FBLoginButton) {
+            print("User logged out")
+        }
     }
 }
 
@@ -164,10 +200,17 @@ struct LoginView: View {
                     .font(.headline)
                     .foregroundColor(.white)
                     .padding()
+                    .frame(width: 300, height: 50) // Set fixed size for both buttons
                     .background(Color.red)
                     .cornerRadius(8)
                 }
                 .padding(.top)
+
+                // Facebook Login Button
+                FacebookLoginButtonView()
+                    .frame(width: 300, height: 50) // Match the size of the Google button
+                    .padding(.top, 10)
+                    .cornerRadius(8)
 
                 // Other UI components
                 Spacer()
@@ -178,6 +221,7 @@ struct LoginView: View {
                     Text(loginData.registerUser ? "Already have an account? Login" : "Don't have an account? Register")
                         .foregroundColor(.blue)
                         .padding(.top, 10)
+                        .cornerRadius(8)
                 }
             }
             .navigationBarHidden(true)

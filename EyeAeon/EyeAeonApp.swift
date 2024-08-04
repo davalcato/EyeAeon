@@ -9,22 +9,33 @@
 import SwiftUI
 import Firebase
 import GoogleSignIn
+import FBSDKCoreKit
 
-// AppDelegate class for Firebase setup
+// AppDelegate class for Firebase, Google, and Facebook setup
 class AppDelegate: NSObject, UIApplicationDelegate {
+    
     func application(_ application: UIApplication,
                      didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
         // Configure Firebase
         FirebaseApp.configure()
+        
+        // Configure Facebook SDK
+        ApplicationDelegate.shared.application(application, didFinishLaunchingWithOptions: launchOptions)
+        
         return true
     }
     
     func application(_ app: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool {
         // Handle Google Sign-In callback
-        return GIDSignIn.sharedInstance.handle(url)
+        let googleHandled = GIDSignIn.sharedInstance.handle(url)
+        
+        // Handle Facebook callback
+        let facebookHandled = ApplicationDelegate.shared.application(app, open: url, options: options)
+        
+        // Return true if either Google or Facebook handled the URL
+        return googleHandled || facebookHandled
     }
 }
-
 
 // Main App structure
 @main
@@ -51,6 +62,7 @@ struct EyeAeonApp: App {
         }
     }
 }
+
 
 
 

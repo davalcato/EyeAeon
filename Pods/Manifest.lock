@@ -14,6 +14,8 @@ PODS:
   - FBSDKCoreKit_Basics (17.0.2)
   - FBSDKLoginKit (17.0.2):
     - FBSDKCoreKit (= 17.0.2)
+  - FBSDKShareKit (17.0.2):
+    - FBSDKCoreKit (= 17.0.2)
   - Firebase/Auth (11.0.0):
     - Firebase/CoreOnly
     - FirebaseAuth (~> 11.0.0)
@@ -133,7 +135,10 @@ PODS:
 DEPENDENCIES:
   - Alamofire (~> 5.4)
   - AppAuth
+  - FBSDKCoreKit (~> 17.0.2)
   - FBSDKLoginKit
+  - FBSDKLoginKit (~> 17.0.2)
+  - FBSDKShareKit
   - Firebase/Auth
   - Firebase/Core
   - GoogleSignIn
@@ -148,6 +153,7 @@ SPEC REPOS:
     - FBSDKCoreKit
     - FBSDKCoreKit_Basics
     - FBSDKLoginKit
+    - FBSDKShareKit
     - Firebase
     - FirebaseAnalytics
     - FirebaseAppCheckInterop
@@ -175,6 +181,7 @@ SPEC CHECKSUMS:
   FBSDKCoreKit: a5f384db2e9ee84e98494fed8f983d2bd79accff
   FBSDKCoreKit_Basics: d35c775aaf243a2d731dfae7be3a74b1987285ab
   FBSDKLoginKit: f8ca5f7ab7c4e5b93e729d94975b0db7fcc511ed
+  FBSDKShareKit: e7ec3bed8e82dabc04e56f3cf44ef99a1864309e
   Firebase: 9f574c08c2396885b5e7e100ed4293d956218af9
   FirebaseAnalytics: 27eb78b97880ea4a004839b9bac0b58880f5a92a
   FirebaseAppCheckInterop: 6f63b3cf004e8bfd8f577e2221a95b4f0b6dc4c5
@@ -195,6 +202,6 @@ SPEC CHECKSUMS:
   RecaptchaInterop: 7d1a4a01a6b2cb1610a47ef3f85f0c411434cb21
   SwiftyJSON: f5b1bf1cd8dd53cd25887ac0eabcfd92301c6a5a
 
-PODFILE CHECKSUM: b742f3270a04695cf63761d6f4006f4685909963
+PODFILE CHECKSUM: 2651db60ceb07370985c4ceaade16a6811aaee9d
 
 COCOAPODS: 1.15.2

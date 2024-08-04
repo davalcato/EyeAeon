@@ -13,6 +13,9 @@ target 'EyeAeon' do
   pod 'GoogleSignInSwiftSupport'
   pod 'Firebase/Core'
   pod 'Firebase/Auth'
+  pod 'FBSDKCoreKit', '~> 17.0.2'
+  pod 'FBSDKLoginKit', '~> 17.0.2'
+  pod 'FBSDKShareKit'
   pod 'AppAuth'
 
   target 'EyeAeonTests' do

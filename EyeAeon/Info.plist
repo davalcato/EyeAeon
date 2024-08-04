@@ -8,15 +8,29 @@
     <key>GIDClientID</key>
     <string>372957022716-eg9pnka0vja7i65irk3js4a3pgeq50kl.apps.googleusercontent.com</string>
 
-    <!-- URL Schemes for Google Sign-In -->
+    <!-- URL Schemes for Google Sign-In and Facebook -->
     <key>CFBundleURLTypes</key>
     <array>
         <dict>
             <key>CFBundleURLSchemes</key>
             <array>
                 <string>com.googleusercontent.apps.808066163689-7ql6v6e8u0a8llc6nhh2duojegbc2f33</string>
+                <string>fb1199501278038464</string> <!-- Replace with your actual Facebook App ID -->
             </array>
         </dict>
+    </array>
+
+    <!-- Facebook SDK Configuration -->
+    <key>FacebookAppID</key>
+    <string>1199501278038464</string> <!-- Replace with your actual Facebook App ID -->
+    <key>FacebookDisplayName</key>
+    <string>EyeAeon</string> <!-- Replace with your actual app name -->
+    <key>LSApplicationQueriesSchemes</key>
+    <array>
+        <string>fbapi</string>
+        <string>fb-messenger-api</string>
+        <string>fbauth2</string>
+        <string>fbshareextension</string>
     </array>
 
     <!-- Other existing keys -->
