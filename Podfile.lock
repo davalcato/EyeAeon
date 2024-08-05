@@ -123,6 +123,7 @@ PODS:
     - AppAuth/Core (~> 1.7)
     - GTMSessionFetcher/Core (< 4.0, >= 3.3)
   - GTMSessionFetcher/Core (3.5.0)
+  - KeychainSwift (24.0.0)
   - nanopb (3.30910.0):
     - nanopb/decode (= 3.30910.0)
     - nanopb/encode (= 3.30910.0)
@@ -136,13 +137,13 @@ DEPENDENCIES:
   - Alamofire (~> 5.4)
   - AppAuth
   - FBSDKCoreKit (~> 17.0.2)
-  - FBSDKLoginKit
   - FBSDKLoginKit (~> 17.0.2)
   - FBSDKShareKit
   - Firebase/Auth
   - Firebase/Core
   - GoogleSignIn
   - GoogleSignInSwiftSupport
+  - KeychainSwift
   - SwiftyJSON (~> 5.0)
 
 SPEC REPOS:
@@ -169,6 +170,7 @@ SPEC REPOS:
     - GoogleUtilities
     - GTMAppAuth
     - GTMSessionFetcher
+    - KeychainSwift
     - nanopb
     - PromisesObjC
     - RecaptchaInterop
@@ -197,11 +199,12 @@ SPEC CHECKSUMS:
   GoogleUtilities: 52f677b52b0d2bed24e7b9c94455b1f7353a09f8
   GTMAppAuth: f69bd07d68cd3b766125f7e072c45d7340dea0de
   GTMSessionFetcher: 5aea5ba6bd522a239e236100971f10cb71b96ab6
+  KeychainSwift: 007c4647486e4563adca839cf02cef00deb3b670
   nanopb: fad817b59e0457d11a5dfbde799381cd727c1275
   PromisesObjC: f5707f49cb48b9636751c5b2e7d227e43fba9f47
   RecaptchaInterop: 7d1a4a01a6b2cb1610a47ef3f85f0c411434cb21
   SwiftyJSON: f5b1bf1cd8dd53cd25887ac0eabcfd92301c6a5a
 
-PODFILE CHECKSUM: 2651db60ceb07370985c4ceaade16a6811aaee9d
+PODFILE CHECKSUM: fff9bb426b8e5494391a92456db667ad90dfa04d
 
 COCOAPODS: 1.15.2

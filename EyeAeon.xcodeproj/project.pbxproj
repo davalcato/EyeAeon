@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		812F397C4CBCDEF0E6FBA616 /* Pods_EyeAeon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD530D4B55BA021A9EEBE040 /* Pods_EyeAeon.framework */; };
+		162CC187495136CB6267EFAD /* Pods_EyeAeonTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 048948865CFF62A84524B530 /* Pods_EyeAeonTests.framework */; };
+		B4944E8276CAB4E05C9C5335 /* Pods_EyeAeon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C731D0D9796B1371DF537690 /* Pods_EyeAeon.framework */; };
 		DA09FF3A2C3A22C800A37750 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA09FF392C3A22C800A37750 /* SplashScreenView.swift */; };
 		DA09FF3C2C3A25E000A37750 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA09FF3B2C3A25E000A37750 /* LoginView.swift */; };
 		DA09FF3E2C3CC9F700A37750 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA09FF3D2C3CC9F700A37750 /* CustomTextField.swift */; };
@@ -38,8 +39,7 @@
 		DAF36CE42C3A207E00CAC7C8 /* EyeAeonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF36CE32C3A207E00CAC7C8 /* EyeAeonTests.swift */; };
 		DAF36CEE2C3A207E00CAC7C8 /* EyeAeonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF36CED2C3A207E00CAC7C8 /* EyeAeonUITests.swift */; };
 		DAF36CF02C3A207E00CAC7C8 /* EyeAeonUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF36CEF2C3A207E00CAC7C8 /* EyeAeonUITestsLaunchTests.swift */; };
-		F4B9DB4894843DF8F8D9FF16 /* Pods_EyeAeon_EyeAeonUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77BEDBA00B1D63E396875D29 /* Pods_EyeAeon_EyeAeonUITests.framework */; };
-		FD7F891112F6D0B3D1D2EF05 /* Pods_EyeAeonTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5A2E6260CABF6E5D1B4EA6 /* Pods_EyeAeonTests.framework */; };
+		E1BE4BA392F9202511F29951 /* Pods_EyeAeon_EyeAeonUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD82F2D6DEDC7F9B6E3AFDAB /* Pods_EyeAeon_EyeAeonUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,12 +60,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3D5A2E6260CABF6E5D1B4EA6 /* Pods_EyeAeonTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EyeAeonTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3FCA55103844EE78112BD78C /* Pods-EyeAeonTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EyeAeonTests.release.xcconfig"; path = "Target Support Files/Pods-EyeAeonTests/Pods-EyeAeonTests.release.xcconfig"; sourceTree = "<group>"; };
-		503E7882A7037F6685EB46FF /* Pods-EyeAeon-EyeAeonUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EyeAeon-EyeAeonUITests.release.xcconfig"; path = "Target Support Files/Pods-EyeAeon-EyeAeonUITests/Pods-EyeAeon-EyeAeonUITests.release.xcconfig"; sourceTree = "<group>"; };
-		77BEDBA00B1D63E396875D29 /* Pods_EyeAeon_EyeAeonUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EyeAeon_EyeAeonUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AE170852A4C4ADAED69B2F2C /* Pods-EyeAeon-EyeAeonUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EyeAeon-EyeAeonUITests.debug.xcconfig"; path = "Target Support Files/Pods-EyeAeon-EyeAeonUITests/Pods-EyeAeon-EyeAeonUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		B631356EEEE5FB61C417A223 /* Pods-EyeAeon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EyeAeon.release.xcconfig"; path = "Target Support Files/Pods-EyeAeon/Pods-EyeAeon.release.xcconfig"; sourceTree = "<group>"; };
+		048948865CFF62A84524B530 /* Pods_EyeAeonTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EyeAeonTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		24F07846B91110AFD462F2F7 /* Pods-EyeAeon-EyeAeonUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EyeAeon-EyeAeonUITests.release.xcconfig"; path = "Target Support Files/Pods-EyeAeon-EyeAeonUITests/Pods-EyeAeon-EyeAeonUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5FEB7A364ED4EDBD3B7F1BDC /* Pods-EyeAeon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EyeAeon.debug.xcconfig"; path = "Target Support Files/Pods-EyeAeon/Pods-EyeAeon.debug.xcconfig"; sourceTree = "<group>"; };
+		698F6F6493B6B7F9D37C4A82 /* Pods-EyeAeon-EyeAeonUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EyeAeon-EyeAeonUITests.debug.xcconfig"; path = "Target Support Files/Pods-EyeAeon-EyeAeonUITests/Pods-EyeAeon-EyeAeonUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7016DA22E76B8E48805E783B /* Pods-EyeAeonTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EyeAeonTests.release.xcconfig"; path = "Target Support Files/Pods-EyeAeonTests/Pods-EyeAeonTests.release.xcconfig"; sourceTree = "<group>"; };
+		A7FE2673D4407B393B170658 /* Pods-EyeAeon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EyeAeon.release.xcconfig"; path = "Target Support Files/Pods-EyeAeon/Pods-EyeAeon.release.xcconfig"; sourceTree = "<group>"; };
+		B1CAF11985DF87FD4F3E55A7 /* Pods-EyeAeonTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EyeAeonTests.debug.xcconfig"; path = "Target Support Files/Pods-EyeAeonTests/Pods-EyeAeonTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C731D0D9796B1371DF537690 /* Pods_EyeAeon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EyeAeon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD82F2D6DEDC7F9B6E3AFDAB /* Pods_EyeAeon_EyeAeonUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EyeAeon_EyeAeonUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA09FF392C3A22C800A37750 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
 		DA09FF3B2C3A25E000A37750 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		DA09FF3D2C3CC9F700A37750 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
@@ -101,9 +104,6 @@
 		DAF36CE92C3A207E00CAC7C8 /* EyeAeonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EyeAeonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAF36CED2C3A207E00CAC7C8 /* EyeAeonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EyeAeonUITests.swift; sourceTree = "<group>"; };
 		DAF36CEF2C3A207E00CAC7C8 /* EyeAeonUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EyeAeonUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		DD530D4B55BA021A9EEBE040 /* Pods_EyeAeon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EyeAeon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EFC58F598CCB75E5EEB239E5 /* Pods-EyeAeonTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EyeAeonTests.debug.xcconfig"; path = "Target Support Files/Pods-EyeAeonTests/Pods-EyeAeonTests.debug.xcconfig"; sourceTree = "<group>"; };
-		F2675E8956B465AA1C240325 /* Pods-EyeAeon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EyeAeon.debug.xcconfig"; path = "Target Support Files/Pods-EyeAeon/Pods-EyeAeon.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,7 +111,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				812F397C4CBCDEF0E6FBA616 /* Pods_EyeAeon.framework in Frameworks */,
+				B4944E8276CAB4E05C9C5335 /* Pods_EyeAeon.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,7 +119,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD7F891112F6D0B3D1D2EF05 /* Pods_EyeAeonTests.framework in Frameworks */,
+				162CC187495136CB6267EFAD /* Pods_EyeAeonTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -127,19 +127,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4B9DB4894843DF8F8D9FF16 /* Pods_EyeAeon_EyeAeonUITests.framework in Frameworks */,
+				E1BE4BA392F9202511F29951 /* Pods_EyeAeon_EyeAeonUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		408961FE163C19B95F12E1B1 /* Frameworks */ = {
+		34DA4B5760A3110C6FE1A0A3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				DD530D4B55BA021A9EEBE040 /* Pods_EyeAeon.framework */,
-				77BEDBA00B1D63E396875D29 /* Pods_EyeAeon_EyeAeonUITests.framework */,
-				3D5A2E6260CABF6E5D1B4EA6 /* Pods_EyeAeonTests.framework */,
+				C731D0D9796B1371DF537690 /* Pods_EyeAeon.framework */,
+				CD82F2D6DEDC7F9B6E3AFDAB /* Pods_EyeAeon_EyeAeonUITests.framework */,
+				048948865CFF62A84524B530 /* Pods_EyeAeonTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -199,7 +199,7 @@
 				DAF36CEC2C3A207E00CAC7C8 /* EyeAeonUITests */,
 				DAF36CCF2C3A207B00CAC7C8 /* Products */,
 				F44E2CFC1FABEAEC34F09631 /* Pods */,
-				408961FE163C19B95F12E1B1 /* Frameworks */,
+				34DA4B5760A3110C6FE1A0A3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -262,12 +262,12 @@
 		F44E2CFC1FABEAEC34F09631 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F2675E8956B465AA1C240325 /* Pods-EyeAeon.debug.xcconfig */,
-				B631356EEEE5FB61C417A223 /* Pods-EyeAeon.release.xcconfig */,
-				AE170852A4C4ADAED69B2F2C /* Pods-EyeAeon-EyeAeonUITests.debug.xcconfig */,
-				503E7882A7037F6685EB46FF /* Pods-EyeAeon-EyeAeonUITests.release.xcconfig */,
-				EFC58F598CCB75E5EEB239E5 /* Pods-EyeAeonTests.debug.xcconfig */,
-				3FCA55103844EE78112BD78C /* Pods-EyeAeonTests.release.xcconfig */,
+				5FEB7A364ED4EDBD3B7F1BDC /* Pods-EyeAeon.debug.xcconfig */,
+				A7FE2673D4407B393B170658 /* Pods-EyeAeon.release.xcconfig */,
+				698F6F6493B6B7F9D37C4A82 /* Pods-EyeAeon-EyeAeonUITests.debug.xcconfig */,
+				24F07846B91110AFD462F2F7 /* Pods-EyeAeon-EyeAeonUITests.release.xcconfig */,
+				B1CAF11985DF87FD4F3E55A7 /* Pods-EyeAeonTests.debug.xcconfig */,
+				7016DA22E76B8E48805E783B /* Pods-EyeAeonTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -279,11 +279,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DAF36CF32C3A207E00CAC7C8 /* Build configuration list for PBXNativeTarget "EyeAeon" */;
 			buildPhases = (
-				01C6ADFF5C8278305977394F /* [CP] Check Pods Manifest.lock */,
+				B62EB05FC6AA3059D99AE1B9 /* [CP] Check Pods Manifest.lock */,
 				DAF36CCA2C3A207B00CAC7C8 /* Sources */,
 				DAF36CCB2C3A207B00CAC7C8 /* Frameworks */,
 				DAF36CCC2C3A207B00CAC7C8 /* Resources */,
-				8B6E5B2BD48451037C82F4A5 /* [CP] Embed Pods Frameworks */,
+				1A8DFBFB512B83FC1DB083F2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -298,7 +298,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DAF36CF62C3A207E00CAC7C8 /* Build configuration list for PBXNativeTarget "EyeAeonTests" */;
 			buildPhases = (
-				971EE76035E7E1B834631B46 /* [CP] Check Pods Manifest.lock */,
+				81D1EF05BCD99A079D15B147 /* [CP] Check Pods Manifest.lock */,
 				DAF36CDB2C3A207E00CAC7C8 /* Sources */,
 				DAF36CDC2C3A207E00CAC7C8 /* Frameworks */,
 				DAF36CDD2C3A207E00CAC7C8 /* Resources */,
@@ -317,11 +317,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DAF36CF92C3A207E00CAC7C8 /* Build configuration list for PBXNativeTarget "EyeAeonUITests" */;
 			buildPhases = (
-				5AD58342A4C8D846B9553557 /* [CP] Check Pods Manifest.lock */,
+				EB1EE07C088A5A2A554ABFD6 /* [CP] Check Pods Manifest.lock */,
 				DAF36CE52C3A207E00CAC7C8 /* Sources */,
 				DAF36CE62C3A207E00CAC7C8 /* Frameworks */,
 				DAF36CE72C3A207E00CAC7C8 /* Resources */,
-				CB70CECB0D44EC989DADA16A /* [CP] Embed Pods Frameworks */,
+				ABACB51C40BA9560AF390CBB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -409,51 +409,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		01C6ADFF5C8278305977394F /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-EyeAeon-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		5AD58342A4C8D846B9553557 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-EyeAeon-EyeAeonUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8B6E5B2BD48451037C82F4A5 /* [CP] Embed Pods Frameworks */ = {
+		1A8DFBFB512B83FC1DB083F2 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -470,7 +426,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EyeAeon/Pods-EyeAeon-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		971EE76035E7E1B834631B46 /* [CP] Check Pods Manifest.lock */ = {
+		81D1EF05BCD99A079D15B147 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -492,7 +448,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		CB70CECB0D44EC989DADA16A /* [CP] Embed Pods Frameworks */ = {
+		ABACB51C40BA9560AF390CBB /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -507,6 +463,50 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EyeAeon-EyeAeonUITests/Pods-EyeAeon-EyeAeonUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B62EB05FC6AA3059D99AE1B9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EyeAeon-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB1EE07C088A5A2A554ABFD6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EyeAeon-EyeAeonUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -690,7 +690,7 @@
 		};
 		DAF36CF42C3A207E00CAC7C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F2675E8956B465AA1C240325 /* Pods-EyeAeon.debug.xcconfig */;
+			baseConfigurationReference = 5FEB7A364ED4EDBD3B7F1BDC /* Pods-EyeAeon.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -730,7 +730,7 @@
 		};
 		DAF36CF52C3A207E00CAC7C8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B631356EEEE5FB61C417A223 /* Pods-EyeAeon.release.xcconfig */;
+			baseConfigurationReference = A7FE2673D4407B393B170658 /* Pods-EyeAeon.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -770,7 +770,7 @@
 		};
 		DAF36CF72C3A207E00CAC7C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EFC58F598CCB75E5EEB239E5 /* Pods-EyeAeonTests.debug.xcconfig */;
+			baseConfigurationReference = B1CAF11985DF87FD4F3E55A7 /* Pods-EyeAeonTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -794,7 +794,7 @@
 		};
 		DAF36CF82C3A207E00CAC7C8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3FCA55103844EE78112BD78C /* Pods-EyeAeonTests.release.xcconfig */;
+			baseConfigurationReference = 7016DA22E76B8E48805E783B /* Pods-EyeAeonTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -818,7 +818,7 @@
 		};
 		DAF36CFA2C3A207E00CAC7C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AE170852A4C4ADAED69B2F2C /* Pods-EyeAeon-EyeAeonUITests.debug.xcconfig */;
+			baseConfigurationReference = 698F6F6493B6B7F9D37C4A82 /* Pods-EyeAeon-EyeAeonUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -841,7 +841,7 @@
 		};
 		DAF36CFB2C3A207E00CAC7C8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 503E7882A7037F6685EB46FF /* Pods-EyeAeon-EyeAeonUITests.release.xcconfig */;
+			baseConfigurationReference = 24F07846B91110AFD462F2F7 /* Pods-EyeAeon-EyeAeonUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

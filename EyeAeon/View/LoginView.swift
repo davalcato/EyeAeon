@@ -10,6 +10,7 @@ import GoogleSignIn
 import FirebaseCore
 import FirebaseAuth
 import FBSDKLoginKit
+import KeychainSwift
 
 // Extension to get the top-most view controller
 extension UIApplication {
@@ -99,6 +100,7 @@ struct LoginView: View {
                     value: $loginData.email,
                     isSecure: false,
                     showPassword: .constant(false)
+//                    showError: false
                 )
                 .padding(.horizontal, 50)
 
@@ -109,6 +111,7 @@ struct LoginView: View {
                     value: $loginData.password,
                     isSecure: true,
                     showPassword: $loginData.showPassword
+//                    showError: false
                 )
                 .padding(.horizontal, 50)
                 .padding(.bottom, 20)
@@ -121,6 +124,7 @@ struct LoginView: View {
                         value: $loginData.reEnterPassword,
                         isSecure: true,
                         showPassword: $loginData.showReEnterPassword
+//                        showError: false
                     )
                     .padding(.horizontal, 50)
                     .padding(.bottom, 20)

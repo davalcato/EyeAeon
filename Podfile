@@ -9,13 +9,13 @@ target 'EyeAeon' do
   pod 'Alamofire', '~> 5.4'
   pod 'SwiftyJSON', '~> 5.0'
   pod 'GoogleSignIn'
-  pod 'FBSDKLoginKit'
   pod 'GoogleSignInSwiftSupport'
   pod 'Firebase/Core'
   pod 'Firebase/Auth'
   pod 'FBSDKCoreKit', '~> 17.0.2'
   pod 'FBSDKLoginKit', '~> 17.0.2'
   pod 'FBSDKShareKit'
+  pod 'KeychainSwift'
   pod 'AppAuth'
 
   target 'EyeAeonTests' do

@@ -7,6 +7,7 @@
 
 import SwiftUI
 import Combine
+import KeychainSwift
 
 class LoginViewModel: ObservableObject {
     @Published var email: String = ""
@@ -18,6 +19,8 @@ class LoginViewModel: ObservableObject {
     @Published var isLoggedIn: Bool = false
     @Published var registerUser: Bool = false
 
+    private let keychain = KeychainSwift()
+
     func registerUserValid() -> Bool {
         return !email.isEmpty && !password.isEmpty && password == reEnterPassword
     }
@@ -27,16 +30,19 @@ class LoginViewModel: ObservableObject {
     }
 
     func register(completion: @escaping (Bool) -> Void) {
-        // Store user data; replace with actual storage mechanism
-        UserDefaults.standard.set(email, forKey: "email")
-        UserDefaults.standard.set(password, forKey: "password")
+        // Storing credentials securely using KeychainSwift
+        keychain.set(email, forKey: "email")
+        keychain.set(password, forKey: "password")
         completion(true)
     }
 
     func login(completion: @escaping (Bool) -> Void) {
-        // Retrieve stored credentials
-        let storedEmail = UserDefaults.standard.string(forKey: "email")
-        let storedPassword = UserDefaults.standard.string(forKey: "password")
+        // Retrieve stored credentials from Keychain
+        guard let storedEmail = keychain.get("email"), let storedPassword = keychain.get("password") else {
+            errorMessage = "No stored credentials found. Please register first."
+            completion(false)
+            return
+        }
 
         // Check if the entered credentials match the stored credentials
         if email == storedEmail && password == storedPassword {
