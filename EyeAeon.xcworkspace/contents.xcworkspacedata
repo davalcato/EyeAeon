@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:/Users/ethanhunt/Documents/EyeAeon/EyeAeon/View/AnalyticsDashboardView.swift">
+   </FileRef>
+   <FileRef
       location = "group:EyeAeon.xcodeproj">
    </FileRef>
    <FileRef

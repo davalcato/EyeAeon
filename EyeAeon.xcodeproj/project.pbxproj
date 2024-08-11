@@ -25,8 +25,11 @@
 		DA2E83E62C55A6AA00052F50 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2E83E52C55A6AA00052F50 /* UserModel.swift */; };
 		DA2E83E82C55A80D00052F50 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2E83E72C55A80D00052F50 /* ProfileView.swift */; };
 		DA2E83EA2C55A87100052F50 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2E83E92C55A87100052F50 /* ImagePicker.swift */; };
+		DA60D89D2C66F250007D5547 /* AnalyticsDashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA60D89C2C66F250007D5547 /* AnalyticsDashboardView.swift */; };
 		DA6CCD522C5DB4AF00342618 /* credentials.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA6CCD512C5DB4AF00342618 /* credentials.plist */; };
 		DA6CCD542C5DBF3800342618 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA6CCD532C5DBF3800342618 /* GoogleService-Info.plist */; };
+		DA940BB42C67F638002EA6DB /* Detection.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA940BB32C67F638002EA6DB /* Detection.swift */; };
+		DA940BB62C68149F002EA6DB /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA940BB52C68149F002EA6DB /* CameraView.swift */; };
 		DA94F7D72C571B080047FD5F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA94F7D62C571B080047FD5F /* SceneDelegate.swift */; };
 		DA94F7D92C59B93F0047FD5F /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA94F7D82C59B93F0047FD5F /* AppState.swift */; };
 		DAAFCD342C4F173000120A14 /* Starbucks.m4a in Resources */ = {isa = PBXBuildFile; fileRef = DAAFCD332C4F173000120A14 /* Starbucks.m4a */; };
@@ -85,9 +88,12 @@
 		DA2E83E52C55A6AA00052F50 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		DA2E83E72C55A80D00052F50 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		DA2E83E92C55A87100052F50 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		DA60D89C2C66F250007D5547 /* AnalyticsDashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AnalyticsDashboardView.swift; path = /Users/ethanhunt/Documents/EyeAeon/EyeAeon/View/AnalyticsDashboardView.swift; sourceTree = "<absolute>"; };
 		DA6CCD4E2C5DAEC800342618 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		DA6CCD512C5DB4AF00342618 /* credentials.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = credentials.plist; sourceTree = "<group>"; };
 		DA6CCD532C5DBF3800342618 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DA940BB32C67F638002EA6DB /* Detection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Detection.swift; sourceTree = "<group>"; };
+		DA940BB52C68149F002EA6DB /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
 		DA94F7D62C571B080047FD5F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		DA94F7D82C59B93F0047FD5F /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
 		DAAFCD332C4F173000120A14 /* Starbucks.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Starbucks.m4a; sourceTree = "<group>"; };
@@ -157,6 +163,8 @@
 			isa = PBXGroup;
 			children = (
 				DA09FF3D2C3CC9F700A37750 /* CustomTextField.swift */,
+				DA60D89C2C66F250007D5547 /* AnalyticsDashboardView.swift */,
+				DA940BB32C67F638002EA6DB /* Detection.swift */,
 				DAAFCD392C505D5D00120A14 /* SharedDataModel.swift */,
 				DA09FF3F2C3E048F00A37750 /* LoginViewModel.swift */,
 			);
@@ -169,6 +177,7 @@
 				DA09FF392C3A22C800A37750 /* SplashScreenView.swift */,
 				DA09FF3B2C3A25E000A37750 /* LoginView.swift */,
 				DA1E12F52C45B3FE0079EF85 /* MainPageView.swift */,
+				DA940BB52C68149F002EA6DB /* CameraView.swift */,
 				DA1E12F92C45D9160079EF85 /* TextDetectionView.swift */,
 				DA1E12FD2C48822E0079EF85 /* ImageDetectionView.swift */,
 				DA1E12FF2C48824C0079EF85 /* VideoDetectionView.swift */,
@@ -517,11 +526,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				DAF36CD42C3A207B00CAC7C8 /* ContentView.swift in Sources */,
+				DA940BB42C67F638002EA6DB /* Detection.swift in Sources */,
 				DA1E13022C4882680079EF85 /* AudioDetectionView.swift in Sources */,
 				DA2E83E62C55A6AA00052F50 /* UserModel.swift in Sources */,
 				DAAFCD3A2C505D5D00120A14 /* SharedDataModel.swift in Sources */,
 				DA1E12FE2C48822E0079EF85 /* ImageDetectionView.swift in Sources */,
 				DA09FF422C3E06F300A37750 /* MainView.swift in Sources */,
+				DA60D89D2C66F250007D5547 /* AnalyticsDashboardView.swift in Sources */,
 				DAF36CD22C3A207B00CAC7C8 /* EyeAeonApp.swift in Sources */,
 				DA09FF402C3E048F00A37750 /* LoginViewModel.swift in Sources */,
 				DA94F7D72C571B080047FD5F /* SceneDelegate.swift in Sources */,
@@ -537,6 +548,7 @@
 				DA2E83E82C55A80D00052F50 /* ProfileView.swift in Sources */,
 				DA2E83EA2C55A87100052F50 /* ImagePicker.swift in Sources */,
 				DA1E12F82C45BC270079EF85 /* View+Extensions.swift in Sources */,
+				DA940BB62C68149F002EA6DB /* CameraView.swift in Sources */,
 				DA1E12F62C45B3FE0079EF85 /* MainPageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -629,7 +641,7 @@
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -684,6 +696,7 @@
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				SWIFT_COMPILATION_MODE = wholemodule;
 			};
 			name = Release;
@@ -718,6 +731,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.4;
 				MARKETING_VERSION = 1.0;
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.davalcato.EyeAeon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
@@ -758,6 +772,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.4;
 				MARKETING_VERSION = 1.0;
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.davalcato.EyeAeon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;

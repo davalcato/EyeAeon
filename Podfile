@@ -17,6 +17,13 @@ target 'EyeAeon' do
   pod 'FBSDKShareKit'
   pod 'KeychainSwift'
   pod 'AppAuth'
+  pod 'Firebase/Firestore'
+  pod 'FirebaseFirestoreSwift'  # <-- Add this line
+  pod 'Charts'
+
+
+  
+ 
 
   target 'EyeAeonTests' do
     inherit! :search_paths
