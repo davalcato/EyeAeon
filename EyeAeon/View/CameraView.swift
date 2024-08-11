@@ -25,14 +25,19 @@ struct CameraView: View {
                 Button(action: {
                     presentationMode.wrappedValue.dismiss()
                 }) {
-                    Image(systemName: "arrow.left")
-                        .font(.system(size: 25))
-                        .foregroundColor(.black)
-                        .padding(.leading, 20)
+                    HStack {
+                        Image(systemName: "chevron.left")
+                        Text("Back")
+                    }
+                    .font(.system(size: 18))
+                    .foregroundColor(.black)
                 }
                 Spacer()
             }
             .padding(.top, 20)
+            .padding(.leading, 20)
+
+            Spacer()
 
             Text("Camera View")
                 .font(.largeTitle)
@@ -40,6 +45,8 @@ struct CameraView: View {
 
             Text("Transcription: \(transcriptionText)")
                 .padding()
+
+            Spacer()
 
             Button(action: {
                 if isRecording {
@@ -52,8 +59,10 @@ struct CameraView: View {
                     .padding()
                     .background(Color.red)
                     .foregroundColor(.white)
-                    .cornerRadius(10)
+                    .clipShape(Circle())
+                    .frame(width: 80, height: 80)
             }
+            .padding(.bottom, 40)
         }
         .onDisappear {
             stopRecording()
@@ -113,6 +122,7 @@ struct CameraView_Previews: PreviewProvider {
         CameraView(isRecording: .constant(false), transcriptionText: .constant(""))
     }
 }
+
 
 
 
