@@ -5,9 +5,9 @@ relocations:
   - { offsetInCU: 0x33, offset: 0x33, size: 0x8, addend: 0x0, symName: _FBSDKShareKitVersionString, symObjAddr: 0x0, symBinAddr: 0x385E0, symSize: 0x0 }
   - { offsetInCU: 0x67, offset: 0x67, size: 0x8, addend: 0x0, symName: _FBSDKShareKitVersionNumber, symObjAddr: 0x40, symBinAddr: 0x38620, symSize: 0x0 }
   - { offsetInCU: 0x34, offset: 0xB0, size: 0x8, addend: 0x0, symName: _FBSDKShareErrorDomain, symObjAddr: 0x38, symBinAddr: 0x42B08, symSize: 0x0 }
-  - { offsetInCU: 0x4D, offset: 0x188, size: 0x8, addend: 0x0, symName: '_$s13FBSDKShareKit16AppInviteContentC22configuredDependenciesAC04TypeG0VSgvpZ', symObjAddr: 0x124D0, symBinAddr: 0x4AF80, symSize: 0x0 }
+  - { offsetInCU: 0x4D, offset: 0x188, size: 0x8, addend: 0x0, symName: '_$s13FBSDKShareKit16AppInviteContentC22configuredDependenciesAC04TypeG0VSgvpZ', symObjAddr: 0x124C0, symBinAddr: 0x4AF80, symSize: 0x0 }
   - { offsetInCU: 0x11F, offset: 0x25A, size: 0x8, addend: 0x0, symName: '_$s13FBSDKShareKit16AppInviteContentC16TypeDependenciesV9validator12errorFactoryAeA15ShareValidating_pXp_So18FBSDKErrorCreating_ptcfCTf4nen_n', symObjAddr: 0x1E30, symBinAddr: 0x3B50, symSize: 0x10 }
-  - { offsetInCU: 0x157, offset: 0x292, size: 0x8, addend: 0x0, symName: '_$s13FBSDKShareKit16AppInviteContentC19defaultDependenciesAC04TypeG0VSgvpZ', symObjAddr: 0x124E8, symBinAddr: 0x4AF98, symSize: 0x0 }
+  - { offsetInCU: 0x157, offset: 0x292, size: 0x8, addend: 0x0, symName: '_$s13FBSDKShareKit16AppInviteContentC19defaultDependenciesAC04TypeG0VSgvpZ', symObjAddr: 0x124D8, symBinAddr: 0x4AF98, symSize: 0x0 }
   - { offsetInCU: 0x1A5, offset: 0x2E0, size: 0x8, addend: 0x0, symName: '_$s13FBSDKShareKit16AppInviteContentC11DestinationOSYAASY8rawValuexSg03RawH0Qz_tcfCTW', symObjAddr: 0xE0, symBinAddr: 0x1E20, symSize: 0x30 }
   - { offsetInCU: 0x1D4, offset: 0x30F, size: 0x8, addend: 0x0, symName: '_$s13FBSDKShareKit16AppInviteContentC11DestinationOSYAASY8rawValue03RawH0QzvgTW', symObjAddr: 0x110, symBinAddr: 0x1E50, symSize: 0x10 }
   - { offsetInCU: 0x205, offset: 0x340, size: 0x8, addend: 0x0, symName: '_$s13FBSDKShareKit16AppInviteContentC03appD15PreviewImageURL10Foundation0I0VSgvgTo', symObjAddr: 0x120, symBinAddr: 0x1E60, symSize: 0xB0 }
@@ -194,9 +194,9 @@ relocations:
   - { offsetInCU: 0x83D, offset: 0x3965, size: 0x8, addend: 0x0, symName: '_$s13FBSDKShareKit15DependentAsTypePAAE15getDependencies0eG0QzyKFZ', symObjAddr: 0x140, symBinAddr: 0x5C10, symSize: 0x1D0 }
   - { offsetInCU: 0x86D, offset: 0x3995, size: 0x8, addend: 0x0, symName: '_$s13FBSDKShareKit15DependentAsTypePAAE13dynamicMemberqd__Sgs7KeyPathCy0E12DependenciesQzqd__G_tcluigZ', symObjAddr: 0x310, symBinAddr: 0x5DE0, symSize: 0xF0 }
   - { offsetInCU: 0x27, offset: 0x3C33, size: 0x8, addend: 0x0, symName: '_$s13FBSDKShareKit12FBSendButtonC6dialogAA13MessageDialogCSgvgTo', symObjAddr: 0x0, symBinAddr: 0x64B0, symSize: 0x40 }
-  - { offsetInCU: 0x49, offset: 0x3C55, size: 0x8, addend: 0x0, symName: '_$s13FBSDKShareKit12FBSendButtonC22configuredDependenciesAC04TypeF0VSgvpZ', symObjAddr: 0x9558, symBinAddr: 0x4AFB0, symSize: 0x0 }
+  - { offsetInCU: 0x49, offset: 0x3C55, size: 0x8, addend: 0x0, symName: '_$s13FBSDKShareKit12FBSendButtonC22configuredDependenciesAC04TypeF0VSgvpZ', symObjAddr: 0x9548, symBinAddr: 0x4AFB0, symSize: 0x0 }
   - { offsetInCU: 0xC5, offset: 0x3CD1, size: 0x8, addend: 0x0, symName: '_$s13FBSDKShareKit12FBSendButtonC16TypeDependenciesV15internalUtilityAESo013FBSDKInternalH0_p_tcfCTf4en_n', symObjAddr: 0x1300, symBinAddr: 0x77B0, symSize: 0x10 }
-  - { offsetInCU: 0xFB, offset: 0x3D07, size: 0x8, addend: 0x0, symName: '_$s13FBSDKShareKit12FBSendButtonC19defaultDependenciesAC04TypeF0VSgvpZ', symObjAddr: 0x9560, symBinAddr: 0x4AFB8, symSize: 0x0 }
+  - { offsetInCU: 0xFB, offset: 0x3D07, size: 0x8, addend: 0x0, symName: '_$s13FBSDKShareKit12FBSendButtonC19defaultDependenciesAC04TypeF0VSgvpZ', symObjAddr: 0x9550, symBinAddr: 0x4AFB8, symSize: 0x0 }
   - { offsetInCU: 0x128, offset: 0x3D34, size: 0x8, addend: 0x0, symName: '_$s13FBSDKShareKit12FBSendButtonC6dialogAA13MessageDialogCSgvgTo', symObjAddr: 0x0, symBinAddr: 0x64B0, symSize: 0x40 }
   - { offsetInCU: 0x17A, offset: 0x3D86, size: 0x8, addend: 0x0, symName: '_$s13FBSDKShareKit12FBSendButtonC6dialogAA13MessageDialogCSgvsTo', symObjAddr: 0x80, symBinAddr: 0x6530, symSize: 0x60 }
   - { offsetInCU: 0x1E3, offset: 0x3DEF, size: 0x8, addend: 0x0, symName: '_$s13FBSDKShareKit12FBSendButtonC12shareContentAA07SharingF0_pSgvgTo', symObjAddr: 0x170, symBinAddr: 0x6620, symSize: 0xA0 }
@@ -251,8 +251,8 @@ relocations:
   - { offsetInCU: 0xF51, offset: 0x4B5D, size: 0x8, addend: 0x0, symName: '_$s13FBSDKShareKit12FBSendButtonC19defaultDependenciesAC04TypeF0VSgvsZ', symObjAddr: 0x1120, symBinAddr: 0x75D0, symSize: 0x60 }
   - { offsetInCU: 0xF8A, offset: 0x4B96, size: 0x8, addend: 0x0, symName: '_$s13FBSDKShareKit12FBSendButtonC19defaultDependenciesAC04TypeF0VSgvMZ', symObjAddr: 0x1180, symBinAddr: 0x7630, symSize: 0x60 }
   - { offsetInCU: 0xFB4, offset: 0x4BC0, size: 0x8, addend: 0x0, symName: '_$s13FBSDKShareKit12FBSendButtonC19defaultDependenciesAC04TypeF0VSgvMZ.resume.0', symObjAddr: 0x11E0, symBinAddr: 0x7690, symSize: 0x10 }
-  - { offsetInCU: 0x49, offset: 0x4CA4, size: 0x8, addend: 0x0, symName: '_$s13FBSDKShareKit13FBShareButtonC22configuredDependenciesAC04TypeF0VSgvpZ', symObjAddr: 0x9838, symBinAddr: 0x4AFC0, symSize: 0x0 }
-  - { offsetInCU: 0xD4, offset: 0x4D2F, size: 0x8, addend: 0x0, symName: '_$s13FBSDKShareKit13FBShareButtonC19defaultDependenciesAC04TypeF0VSgvpZ', symObjAddr: 0x9860, symBinAddr: 0x4AFE8, symSize: 0x0 }
+  - { offsetInCU: 0x49, offset: 0x4CA4, size: 0x8, addend: 0x0, symName: '_$s13FBSDKShareKit13FBShareButtonC22configuredDependenciesAC04TypeF0VSgvpZ', symObjAddr: 0x9830, symBinAddr: 0x4AFC0, symSize: 0x0 }
+  - { offsetInCU: 0xD4, offset: 0x4D2F, size: 0x8, addend: 0x0, symName: '_$s13FBSDKShareKit13FBShareButtonC19defaultDependenciesAC04TypeF0VSgvpZ', symObjAddr: 0x9858, symBinAddr: 0x4AFE8, symSize: 0x0 }
   - { offsetInCU: 0x101, offset: 0x4D5C, size: 0x8, addend: 0x0, symName: '_$s13FBSDKShareKit13FBShareButtonC6dialogAA11ShareDialogCSgvgTo', symObjAddr: 0x0, symBinAddr: 0x7840, symSize: 0x40 }
   - { offsetInCU: 0x153, offset: 0x4DAE, size: 0x8, addend: 0x0, symName: '_$s13FBSDKShareKit13FBShareButtonC6dialogAA11ShareDialogCSgvsTo', symObjAddr: 0x80, symBinAddr: 0x78C0, symSize: 0x60 }
   - { offsetInCU: 0x1BC, offset: 0x4E17, size: 0x8, addend: 0x0, symName: '_$s13FBSDKShareKit13FBShareButtonC12shareContentAA07SharingF0_pSgvgTo', symObjAddr: 0x170, symBinAddr: 0x79B0, symSize: 0xA0 }
@@ -344,8 +344,8 @@ relocations:
   - { offsetInCU: 0x848, offset: 0x63B6, size: 0x8, addend: 0x0, symName: '_$s13FBSDKShareKit7HashtagCACycfc', symObjAddr: 0x960, symBinAddr: 0x99F0, symSize: 0x30 }
   - { offsetInCU: 0x89B, offset: 0x6409, size: 0x8, addend: 0x0, symName: '_$s13FBSDKShareKit7HashtagCfD', symObjAddr: 0x9C0, symBinAddr: 0x9A50, symSize: 0x30 }
   - { offsetInCU: 0x4D, offset: 0x6492, size: 0x8, addend: 0x0, symName: '_$s13FBSDKShareKit13MessageDialogC36hasCheckedCanOpenURLSchemeRegistered33_5A6839915BDFDBE1A9E339420059F485LLSbvpZ', symObjAddr: 0x3DE0, symBinAddr: 0x4A140, symSize: 0x0 }
-  - { offsetInCU: 0x67, offset: 0x64AC, size: 0x8, addend: 0x0, symName: '_$s13FBSDKShareKit13MessageDialogC19defaultDependenciesAC04TypeF0VSgvpZ', symObjAddr: 0x14858, symBinAddr: 0x4B010, symSize: 0x0 }
-  - { offsetInCU: 0x2FD, offset: 0x6742, size: 0x8, addend: 0x0, symName: '_$s13FBSDKShareKit13MessageDialogC22configuredDependenciesAC04TypeF0VSgvpZ', symObjAddr: 0x148C0, symBinAddr: 0x4B078, symSize: 0x0 }
+  - { offsetInCU: 0x67, offset: 0x64AC, size: 0x8, addend: 0x0, symName: '_$s13FBSDKShareKit13MessageDialogC19defaultDependenciesAC04TypeF0VSgvpZ', symObjAddr: 0x14850, symBinAddr: 0x4B010, symSize: 0x0 }
+  - { offsetInCU: 0x2FD, offset: 0x6742, size: 0x8, addend: 0x0, symName: '_$s13FBSDKShareKit13MessageDialogC22configuredDependenciesAC04TypeF0VSgvpZ', symObjAddr: 0x148B8, symBinAddr: 0x4B078, symSize: 0x0 }
   - { offsetInCU: 0x33F, offset: 0x6784, size: 0x8, addend: 0x0, symName: '_$s13FBSDKShareKit13MessageDialogC8delegateAA15SharingDelegate_pSgvgTo', symObjAddr: 0x20, symBinAddr: 0x9B30, symSize: 0x40 }
   - { offsetInCU: 0x393, offset: 0x67D8, size: 0x8, addend: 0x0, symName: '_$s13FBSDKShareKit13MessageDialogC8delegateAA15SharingDelegate_pSgvsTo', symObjAddr: 0xA0, symBinAddr: 0x9BB0, symSize: 0x40 }
   - { offsetInCU: 0x413, offset: 0x6858, size: 0x8, addend: 0x0, symName: '_$s13FBSDKShareKit13MessageDialogC12shareContentAA07SharingF0_pSgvgTo', symObjAddr: 0x200, symBinAddr: 0x9D10, symSize: 0x50 }
@@ -495,14 +495,14 @@ relocations:
   - { offsetInCU: 0x756, offset: 0x969B, size: 0x8, addend: 0x0, symName: '_$sSo14PHImageManagerC13FBSDKShareKitE14fb_getVideoURL3for10Foundation0H0VSo7PHAssetC_tKF', symObjAddr: 0x470, symBinAddr: 0xE0F0, symSize: 0x3D0 }
   - { offsetInCU: 0x803, offset: 0x9748, size: 0x8, addend: 0x0, symName: '_$sSo14PHImageManagerC13FBSDKShareKitE14fb_getVideoURL3for10Foundation0H0VSo7PHAssetC_tKFySo7AVAssetCSg_So10AVAudioMixCSgSDys11AnyHashableVypGSgtcfU_', symObjAddr: 0x880, symBinAddr: 0xE4C0, symSize: 0x380 }
   - { offsetInCU: 0xAF8, offset: 0x9A3D, size: 0x8, addend: 0x0, symName: '_$sSlsSQ7ElementRpzrlE10firstIndex2of0C0QzSgAB_tFSS_Tg5', symObjAddr: 0xC60, symBinAddr: 0xE8A0, symSize: 0xF0 }
-  - { offsetInCU: 0x49, offset: 0x9BFE, size: 0x8, addend: 0x0, symName: '_$sSo17FBSDKAppEventNamea13FBSDKShareKitE24messengerShareDialogShowABvpZ', symObjAddr: 0x2DE8, symBinAddr: 0x4B0F0, symSize: 0x0 }
-  - { offsetInCU: 0x62, offset: 0x9C17, size: 0x8, addend: 0x0, symName: '_$sSo17FBSDKAppEventNamea13FBSDKShareKitE26messengerShareDialogResultABvpZ', symObjAddr: 0x2DF0, symBinAddr: 0x4B0F8, symSize: 0x0 }
-  - { offsetInCU: 0x7B, offset: 0x9C30, size: 0x8, addend: 0x0, symName: '_$sSo17FBSDKAppEventNamea13FBSDKShareKitE20sendButtonImpressionABvpZ', symObjAddr: 0x2DF8, symBinAddr: 0x4B100, symSize: 0x0 }
-  - { offsetInCU: 0x94, offset: 0x9C49, size: 0x8, addend: 0x0, symName: '_$sSo17FBSDKAppEventNamea13FBSDKShareKitE16sendButtonDidTapABvpZ', symObjAddr: 0x2E00, symBinAddr: 0x4B108, symSize: 0x0 }
-  - { offsetInCU: 0xAD, offset: 0x9C62, size: 0x8, addend: 0x0, symName: '_$sSo17FBSDKAppEventNamea13FBSDKShareKitE21shareButtonImpressionABvpZ', symObjAddr: 0x2E08, symBinAddr: 0x4B110, symSize: 0x0 }
-  - { offsetInCU: 0xC6, offset: 0x9C7B, size: 0x8, addend: 0x0, symName: '_$sSo17FBSDKAppEventNamea13FBSDKShareKitE17shareButtonDidTapABvpZ', symObjAddr: 0x2E10, symBinAddr: 0x4B118, symSize: 0x0 }
-  - { offsetInCU: 0xDF, offset: 0x9C94, size: 0x8, addend: 0x0, symName: '_$sSo17FBSDKAppEventNamea13FBSDKShareKitE15shareDialogShowABvpZ', symObjAddr: 0x2E18, symBinAddr: 0x4B120, symSize: 0x0 }
-  - { offsetInCU: 0xF8, offset: 0x9CAD, size: 0x8, addend: 0x0, symName: '_$sSo17FBSDKAppEventNamea13FBSDKShareKitE17shareDialogResultABvpZ', symObjAddr: 0x2E20, symBinAddr: 0x4B128, symSize: 0x0 }
+  - { offsetInCU: 0x49, offset: 0x9BFE, size: 0x8, addend: 0x0, symName: '_$sSo17FBSDKAppEventNamea13FBSDKShareKitE24messengerShareDialogShowABvpZ', symObjAddr: 0x2DE0, symBinAddr: 0x4B0F0, symSize: 0x0 }
+  - { offsetInCU: 0x62, offset: 0x9C17, size: 0x8, addend: 0x0, symName: '_$sSo17FBSDKAppEventNamea13FBSDKShareKitE26messengerShareDialogResultABvpZ', symObjAddr: 0x2DE8, symBinAddr: 0x4B0F8, symSize: 0x0 }
+  - { offsetInCU: 0x7B, offset: 0x9C30, size: 0x8, addend: 0x0, symName: '_$sSo17FBSDKAppEventNamea13FBSDKShareKitE20sendButtonImpressionABvpZ', symObjAddr: 0x2DF0, symBinAddr: 0x4B100, symSize: 0x0 }
+  - { offsetInCU: 0x94, offset: 0x9C49, size: 0x8, addend: 0x0, symName: '_$sSo17FBSDKAppEventNamea13FBSDKShareKitE16sendButtonDidTapABvpZ', symObjAddr: 0x2DF8, symBinAddr: 0x4B108, symSize: 0x0 }
+  - { offsetInCU: 0xAD, offset: 0x9C62, size: 0x8, addend: 0x0, symName: '_$sSo17FBSDKAppEventNamea13FBSDKShareKitE21shareButtonImpressionABvpZ', symObjAddr: 0x2E00, symBinAddr: 0x4B110, symSize: 0x0 }
+  - { offsetInCU: 0xC6, offset: 0x9C7B, size: 0x8, addend: 0x0, symName: '_$sSo17FBSDKAppEventNamea13FBSDKShareKitE17shareButtonDidTapABvpZ', symObjAddr: 0x2E08, symBinAddr: 0x4B118, symSize: 0x0 }
+  - { offsetInCU: 0xDF, offset: 0x9C94, size: 0x8, addend: 0x0, symName: '_$sSo17FBSDKAppEventNamea13FBSDKShareKitE15shareDialogShowABvpZ', symObjAddr: 0x2E10, symBinAddr: 0x4B120, symSize: 0x0 }
+  - { offsetInCU: 0xF8, offset: 0x9CAD, size: 0x8, addend: 0x0, symName: '_$sSo17FBSDKAppEventNamea13FBSDKShareKitE17shareDialogResultABvpZ', symObjAddr: 0x2E18, symBinAddr: 0x4B128, symSize: 0x0 }
   - { offsetInCU: 0x105, offset: 0x9CBA, size: 0x8, addend: 0x0, symName: '_$sSo17FBSDKAppEventNamea13FBSDKShareKitE20sendButtonImpressionABvau', symObjAddr: 0x0, symBinAddr: 0xEAC0, symSize: 0x30 }
   - { offsetInCU: 0x122, offset: 0x9CD7, size: 0x8, addend: 0x0, symName: '_$sSo17FBSDKAppEventNamea13FBSDKShareKitE16sendButtonDidTapABvau', symObjAddr: 0x30, symBinAddr: 0xEAF0, symSize: 0x30 }
   - { offsetInCU: 0x13F, offset: 0x9CF4, size: 0x8, addend: 0x0, symName: '_$sSo17FBSDKAppEventNamea13FBSDKShareKitE21shareButtonImpressionABvau', symObjAddr: 0x60, symBinAddr: 0xEB20, symSize: 0x30 }
@@ -519,12 +519,12 @@ relocations:
   - { offsetInCU: 0x26A, offset: 0x9E1F, size: 0x8, addend: 0x0, symName: '_$sSo17FBSDKAppEventNamea13FBSDKShareKitE17shareButtonDidTap_WZ', symObjAddr: 0x310, symBinAddr: 0xEDD0, symSize: 0x30 }
   - { offsetInCU: 0x283, offset: 0x9E38, size: 0x8, addend: 0x0, symName: '_$sSo17FBSDKAppEventNamea13FBSDKShareKitE15shareDialogShow_WZ', symObjAddr: 0x360, symBinAddr: 0xEE20, symSize: 0x30 }
   - { offsetInCU: 0x29C, offset: 0x9E51, size: 0x8, addend: 0x0, symName: '_$sSo17FBSDKAppEventNamea13FBSDKShareKitE17shareDialogResult_WZ', symObjAddr: 0x3B0, symBinAddr: 0xEE70, symSize: 0x30 }
-  - { offsetInCU: 0x49, offset: 0x9F7A, size: 0x8, addend: 0x0, symName: '_$sSo26FBSDKAppEventParameterNamea13FBSDKShareKitE12errorMessageABvpZ', symObjAddr: 0x4268, symBinAddr: 0x4B130, symSize: 0x0 }
-  - { offsetInCU: 0x62, offset: 0x9F93, size: 0x8, addend: 0x0, symName: '_$sSo26FBSDKAppEventParameterNamea13FBSDKShareKitE7outcomeABvpZ', symObjAddr: 0x4270, symBinAddr: 0x4B138, symSize: 0x0 }
-  - { offsetInCU: 0x7B, offset: 0x9FAC, size: 0x8, addend: 0x0, symName: '_$sSo26FBSDKAppEventParameterNamea13FBSDKShareKitE16shareContentTypeABvpZ', symObjAddr: 0x4278, symBinAddr: 0x4B140, symSize: 0x0 }
-  - { offsetInCU: 0x94, offset: 0x9FC5, size: 0x8, addend: 0x0, symName: '_$sSo26FBSDKAppEventParameterNamea13FBSDKShareKitE4modeABvpZ', symObjAddr: 0x4280, symBinAddr: 0x4B148, symSize: 0x0 }
-  - { offsetInCU: 0xAD, offset: 0x9FDE, size: 0x8, addend: 0x0, symName: '_$sSo26FBSDKAppEventParameterNamea13FBSDKShareKitE18shareContentPageIDABvpZ', symObjAddr: 0x4288, symBinAddr: 0x4B150, symSize: 0x0 }
-  - { offsetInCU: 0xC6, offset: 0x9FF7, size: 0x8, addend: 0x0, symName: '_$sSo26FBSDKAppEventParameterNamea13FBSDKShareKitE16shareContentUUIDABvpZ', symObjAddr: 0x4290, symBinAddr: 0x4B158, symSize: 0x0 }
+  - { offsetInCU: 0x49, offset: 0x9F7A, size: 0x8, addend: 0x0, symName: '_$sSo26FBSDKAppEventParameterNamea13FBSDKShareKitE12errorMessageABvpZ', symObjAddr: 0x4260, symBinAddr: 0x4B130, symSize: 0x0 }
+  - { offsetInCU: 0x62, offset: 0x9F93, size: 0x8, addend: 0x0, symName: '_$sSo26FBSDKAppEventParameterNamea13FBSDKShareKitE7outcomeABvpZ', symObjAddr: 0x4268, symBinAddr: 0x4B138, symSize: 0x0 }
+  - { offsetInCU: 0x7B, offset: 0x9FAC, size: 0x8, addend: 0x0, symName: '_$sSo26FBSDKAppEventParameterNamea13FBSDKShareKitE16shareContentTypeABvpZ', symObjAddr: 0x4270, symBinAddr: 0x4B140, symSize: 0x0 }
+  - { offsetInCU: 0x94, offset: 0x9FC5, size: 0x8, addend: 0x0, symName: '_$sSo26FBSDKAppEventParameterNamea13FBSDKShareKitE4modeABvpZ', symObjAddr: 0x4278, symBinAddr: 0x4B148, symSize: 0x0 }
+  - { offsetInCU: 0xAD, offset: 0x9FDE, size: 0x8, addend: 0x0, symName: '_$sSo26FBSDKAppEventParameterNamea13FBSDKShareKitE18shareContentPageIDABvpZ', symObjAddr: 0x4280, symBinAddr: 0x4B150, symSize: 0x0 }
+  - { offsetInCU: 0xC6, offset: 0x9FF7, size: 0x8, addend: 0x0, symName: '_$sSo26FBSDKAppEventParameterNamea13FBSDKShareKitE16shareContentUUIDABvpZ', symObjAddr: 0x4288, symBinAddr: 0x4B158, symSize: 0x0 }
   - { offsetInCU: 0xDF, offset: 0xA010, size: 0x8, addend: 0x0, symName: '_$s13FBSDKShareKit24ShareAppEventsParametersO18DialogOutcomeValueO9cancelledSSvpZ', symObjAddr: 0x4E0, symBinAddr: 0x38E30, symSize: 0x0 }
   - { offsetInCU: 0xF8, offset: 0xA029, size: 0x8, addend: 0x0, symName: '_$s13FBSDKShareKit24ShareAppEventsParametersO18DialogOutcomeValueO9completedSSvpZ', symObjAddr: 0x4F0, symBinAddr: 0x38E40, symSize: 0x0 }
   - { offsetInCU: 0x111, offset: 0xA042, size: 0x8, addend: 0x0, symName: '_$s13FBSDKShareKit24ShareAppEventsParametersO18DialogOutcomeValueO6failedSSvpZ', symObjAddr: 0x500, symBinAddr: 0x38E50, symSize: 0x0 }
@@ -597,9 +597,9 @@ relocations:
   - { offsetInCU: 0x37B, offset: 0xAC57, size: 0x8, addend: 0x0, symName: '_$s13FBSDKShareKit28ShareBridgeAPIRequestFactoryCfd', symObjAddr: 0x330, symBinAddr: 0xF870, symSize: 0x10 }
   - { offsetInCU: 0x3A2, offset: 0xAC7E, size: 0x8, addend: 0x0, symName: '_$s13FBSDKShareKit28ShareBridgeAPIRequestFactoryCfD', symObjAddr: 0x340, symBinAddr: 0xF880, symSize: 0x20 }
   - { offsetInCU: 0x3C3, offset: 0xAC9F, size: 0x8, addend: 0x0, symName: '_$s13FBSDKShareKit28ShareBridgeAPIRequestFactoryCACycfc', symObjAddr: 0x360, symBinAddr: 0xF8A0, symSize: 0x10 }
-  - { offsetInCU: 0x49, offset: 0xAD09, size: 0x8, addend: 0x0, symName: '_$s13FBSDKShareKit24ShareCameraEffectContentC22configuredDependenciesAC04TypeH0VSgvpZ', symObjAddr: 0xF870, symBinAddr: 0x4B160, symSize: 0x0 }
+  - { offsetInCU: 0x49, offset: 0xAD09, size: 0x8, addend: 0x0, symName: '_$s13FBSDKShareKit24ShareCameraEffectContentC22configuredDependenciesAC04TypeH0VSgvpZ', symObjAddr: 0xF860, symBinAddr: 0x4B160, symSize: 0x0 }
   - { offsetInCU: 0x11B, offset: 0xADDB, size: 0x8, addend: 0x0, symName: '_$s13FBSDKShareKit24ShareCameraEffectContentC16TypeDependenciesV15internalUtility12errorFactoryAESo013FBSDKInternalJ0_p_So18FBSDKErrorCreating_ptcfCTf4een_n', symObjAddr: 0x1850, symBinAddr: 0x110C0, symSize: 0x10 }
-  - { offsetInCU: 0x161, offset: 0xAE21, size: 0x8, addend: 0x0, symName: '_$s13FBSDKShareKit24ShareCameraEffectContentC19defaultDependenciesAC04TypeH0VSgvpZ', symObjAddr: 0xF880, symBinAddr: 0x4B170, symSize: 0x0 }
+  - { offsetInCU: 0x161, offset: 0xAE21, size: 0x8, addend: 0x0, symName: '_$s13FBSDKShareKit24ShareCameraEffectContentC19defaultDependenciesAC04TypeH0VSgvpZ', symObjAddr: 0xF870, symBinAddr: 0x4B170, symSize: 0x0 }
   - { offsetInCU: 0x18E, offset: 0xAE4E, size: 0x8, addend: 0x0, symName: '_$s13FBSDKShareKit24ShareCameraEffectContentC8effectIDSSvgTo', symObjAddr: 0x0, symBinAddr: 0xF930, symSize: 0x60 }
   - { offsetInCU: 0x1E0, offset: 0xAEA0, size: 0x8, addend: 0x0, symName: '_$s13FBSDKShareKit24ShareCameraEffectContentC8effectIDSSvsTo', symObjAddr: 0xB0, symBinAddr: 0xF9E0, symSize: 0x60 }
   - { offsetInCU: 0x24B, offset: 0xAF0B, size: 0x8, addend: 0x0, symName: '_$s13FBSDKShareKit24ShareCameraEffectContentC15effectArgumentsAA0deH0CvgTo', symObjAddr: 0x1A0, symBinAddr: 0xFAD0, symSize: 0x40 }
@@ -682,8 +682,8 @@ relocations:
   - { offsetInCU: 0x1946, offset: 0xC606, size: 0x8, addend: 0x0, symName: '_$s13FBSDKShareKit24ShareCameraEffectContentC8validate7optionsySo0A13BridgeOptionsV_tKFTf4dn_n', symObjAddr: 0x21E0, symBinAddr: 0x11A20, symSize: 0x290 }
   - { offsetInCU: 0x4D, offset: 0xC6E9, size: 0x8, addend: 0x0, symName: '_$s13FBSDKShareKit11ShareDialogC33hasValidatedURLSchemeRegistration33_E1AF200E0831744CC16A1D1F60FB472CLLSbvpZ', symObjAddr: 0xD820, symBinAddr: 0x4A438, symSize: 0x0 }
   - { offsetInCU: 0x66, offset: 0xC702, size: 0x8, addend: 0x0, symName: '_$s13FBSDKShareKit11ShareDialogC18temporaryDirectory33_E1AF200E0831744CC16A1D1F60FB472CLL10Foundation3URLVvpZ', symObjAddr: 0xD828, symBinAddr: 0x4A440, symSize: 0x0 }
-  - { offsetInCU: 0x7F, offset: 0xC71B, size: 0x8, addend: 0x0, symName: '_$s13FBSDKShareKit11ShareDialogC22configuredDependenciesAC04TypeF0VSgvpZ', symObjAddr: 0x3F7B8, symBinAddr: 0x4B180, symSize: 0x0 }
-  - { offsetInCU: 0x46B, offset: 0xCB07, size: 0x8, addend: 0x0, symName: '_$s13FBSDKShareKit11ShareDialogC19defaultDependenciesAC04TypeF0VSgvpZ', symObjAddr: 0x3F880, symBinAddr: 0x4B248, symSize: 0x0 }
+  - { offsetInCU: 0x7F, offset: 0xC71B, size: 0x8, addend: 0x0, symName: '_$s13FBSDKShareKit11ShareDialogC22configuredDependenciesAC04TypeF0VSgvpZ', symObjAddr: 0x3F7B0, symBinAddr: 0x4B180, symSize: 0x0 }
+  - { offsetInCU: 0x46B, offset: 0xCB07, size: 0x8, addend: 0x0, symName: '_$s13FBSDKShareKit11ShareDialogC19defaultDependenciesAC04TypeF0VSgvpZ', symObjAddr: 0x3F878, symBinAddr: 0x4B248, symSize: 0x0 }
   - { offsetInCU: 0x522, offset: 0xCBBE, size: 0x8, addend: 0x0, symName: '_$s13FBSDKShareKit11ShareDialogC4modeAC4ModeOvgTo', symObjAddr: 0x330, symBinAddr: 0x123F0, symSize: 0x40 }
   - { offsetInCU: 0x574, offset: 0xCC10, size: 0x8, addend: 0x0, symName: '_$s13FBSDKShareKit11ShareDialogC4modeAC4ModeOvsTo', symObjAddr: 0x3A0, symBinAddr: 0x12460, symSize: 0x40 }
   - { offsetInCU: 0x621, offset: 0xCCBD, size: 0x8, addend: 0x0, symName: '_$s13FBSDKShareKit11ShareDialogC12shareContentAA07SharingF0_pSgvgTo', symObjAddr: 0x690, symBinAddr: 0x12750, symSize: 0x50 }
@@ -987,9 +987,9 @@ relocations:
   - { offsetInCU: 0xE0F, offset: 0x16B33, size: 0x8, addend: 0x0, symName: '_$s13FBSDKShareKit17ShareMediaContentCACycfc', symObjAddr: 0xCD0, symBinAddr: 0x21C40, symSize: 0x150 }
   - { offsetInCU: 0xE32, offset: 0x16B56, size: 0x8, addend: 0x0, symName: '_$s13FBSDKShareKit17ShareMediaContentCfD', symObjAddr: 0xE40, symBinAddr: 0x21DB0, symSize: 0x30 }
   - { offsetInCU: 0xE53, offset: 0x16B77, size: 0x8, addend: 0x0, symName: '_$s13FBSDKShareKit17ShareMediaContentC13addParameters_7optionsSDySSypGAF_So0A13BridgeOptionsVtF', symObjAddr: 0xF10, symBinAddr: 0x21E80, symSize: 0x10 }
-  - { offsetInCU: 0x4D, offset: 0x16C60, size: 0x8, addend: 0x0, symName: '_$s13FBSDKShareKit10SharePhotoC22configuredDependenciesAC04TypeF0VSgvpZ', symObjAddr: 0xDF40, symBinAddr: 0x4B310, symSize: 0x0 }
+  - { offsetInCU: 0x4D, offset: 0x16C60, size: 0x8, addend: 0x0, symName: '_$s13FBSDKShareKit10SharePhotoC22configuredDependenciesAC04TypeF0VSgvpZ', symObjAddr: 0xDF30, symBinAddr: 0x4B310, symSize: 0x0 }
   - { offsetInCU: 0xC9, offset: 0x16CDC, size: 0x8, addend: 0x0, symName: '_$s13FBSDKShareKit10SharePhotoC16TypeDependenciesV12errorFactoryAESo18FBSDKErrorCreating_p_tcfCTf4en_n', symObjAddr: 0x2B40, symBinAddr: 0x24F10, symSize: 0x10 }
-  - { offsetInCU: 0xFF, offset: 0x16D12, size: 0x8, addend: 0x0, symName: '_$s13FBSDKShareKit10SharePhotoC19defaultDependenciesAC04TypeF0VSgvpZ', symObjAddr: 0xDF48, symBinAddr: 0x4B318, symSize: 0x0 }
+  - { offsetInCU: 0xFF, offset: 0x16D12, size: 0x8, addend: 0x0, symName: '_$s13FBSDKShareKit10SharePhotoC19defaultDependenciesAC04TypeF0VSgvpZ', symObjAddr: 0xDF38, symBinAddr: 0x4B318, symSize: 0x0 }
   - { offsetInCU: 0x191, offset: 0x16DA4, size: 0x8, addend: 0x0, symName: '_$s13FBSDKShareKit10SharePhotoC5imageSo7UIImageCSgvgTo', symObjAddr: 0x110, symBinAddr: 0x22520, symSize: 0x30 }
   - { offsetInCU: 0x1DB, offset: 0x16DEE, size: 0x8, addend: 0x0, symName: '_$s13FBSDKShareKit10SharePhotoC8imageURL10Foundation0F0VSgvgTo', symObjAddr: 0x410, symBinAddr: 0x227E0, symSize: 0xB0 }
   - { offsetInCU: 0x20B, offset: 0x16E1E, size: 0x8, addend: 0x0, symName: '_$s13FBSDKShareKit10SharePhotoC8imageURL10Foundation0F0VSgvsTo', symObjAddr: 0x5E0, symBinAddr: 0x229B0, symSize: 0xB0 }
@@ -1074,8 +1074,8 @@ relocations:
   - { offsetInCU: 0x1576, offset: 0x18189, size: 0x8, addend: 0x0, symName: '_$s13FBSDKShareKit10SharePhotoC19defaultDependenciesAC04TypeF0VSgvMZ', symObjAddr: 0x2090, symBinAddr: 0x24460, symSize: 0x60 }
   - { offsetInCU: 0x15FD, offset: 0x18210, size: 0x8, addend: 0x0, symName: '_$s13FBSDKShareKit10SharePhotoC17validateRemoteURL33_E2C13AF766164E1B1EEA51203BE816FFLLyyKF', symObjAddr: 0x2200, symBinAddr: 0x245D0, symSize: 0x400 }
   - { offsetInCU: 0x1660, offset: 0x18273, size: 0x8, addend: 0x0, symName: '_$s13FBSDKShareKit10SharePhotoC14validateSource33_E2C13AF766164E1B1EEA51203BE816FFLLyyKF', symObjAddr: 0x2600, symBinAddr: 0x249D0, symSize: 0x440 }
-  - { offsetInCU: 0x4D, offset: 0x18387, size: 0x8, addend: 0x0, symName: '_$s13FBSDKShareKit17SharePhotoContentC22configuredDependenciesAC04TypeG0VSgvpZ', symObjAddr: 0x12B38, symBinAddr: 0x4B320, symSize: 0x0 }
-  - { offsetInCU: 0x12E, offset: 0x18468, size: 0x8, addend: 0x0, symName: '_$s13FBSDKShareKit17SharePhotoContentC19defaultDependenciesAC04TypeG0VSgvpZ', symObjAddr: 0x12B70, symBinAddr: 0x4B358, symSize: 0x0 }
+  - { offsetInCU: 0x4D, offset: 0x18387, size: 0x8, addend: 0x0, symName: '_$s13FBSDKShareKit17SharePhotoContentC22configuredDependenciesAC04TypeG0VSgvpZ', symObjAddr: 0x12B28, symBinAddr: 0x4B320, symSize: 0x0 }
+  - { offsetInCU: 0x12E, offset: 0x18468, size: 0x8, addend: 0x0, symName: '_$s13FBSDKShareKit17SharePhotoContentC19defaultDependenciesAC04TypeG0VSgvpZ', symObjAddr: 0x12B60, symBinAddr: 0x4B358, symSize: 0x0 }
   - { offsetInCU: 0x293, offset: 0x185CD, size: 0x8, addend: 0x0, symName: '_$s13FBSDKShareKit17SharePhotoContentC6photosSayAA0cD0CGvgTo', symObjAddr: 0x790, symBinAddr: 0x25D00, symSize: 0x70 }
   - { offsetInCU: 0x2E5, offset: 0x1861F, size: 0x8, addend: 0x0, symName: '_$s13FBSDKShareKit17SharePhotoContentC6photosSayAA0cD0CGvsTo', symObjAddr: 0x820, symBinAddr: 0x25D90, symSize: 0x60 }
   - { offsetInCU: 0x34E, offset: 0x18688, size: 0x8, addend: 0x0, symName: '_$s13FBSDKShareKit17SharePhotoContentC10contentURL10Foundation0G0VSgvgTo', symObjAddr: 0x8E0, symBinAddr: 0x25E50, symSize: 0xB0 }
@@ -1150,7 +1150,7 @@ relocations:
   - { offsetInCU: 0x1E6B, offset: 0x1A1A5, size: 0x8, addend: 0x0, symName: '_$ss12_ArrayBufferV19_getElementSlowPathyyXlSiF13FBSDKShareKit10ShareMedia_p_Tg5', symObjAddr: 0x1EE0, symBinAddr: 0x273D0, symSize: 0x200 }
   - { offsetInCU: 0x1FFC, offset: 0x1A336, size: 0x8, addend: 0x0, symName: '_$s13FBSDKShareKit17SharePhotoContentC13addParameters_7optionsSDySSypGAF_So0A13BridgeOptionsVtFTf4ndn_n', symObjAddr: 0x2300, symBinAddr: 0x277F0, symSize: 0xB00 }
   - { offsetInCU: 0x27, offset: 0x1AA30, size: 0x8, addend: 0x0, symName: '_$s13FBSDKShareKit18ShareUIApplicationO6sharedAA0C18InternalURLOpening_pvau', symObjAddr: 0x0, symBinAddr: 0x286A0, symSize: 0x30 }
-  - { offsetInCU: 0x49, offset: 0x1AA52, size: 0x8, addend: 0x0, symName: '_$s13FBSDKShareKit18ShareUIApplicationO6sharedAA0C18InternalURLOpening_pvpZ', symObjAddr: 0x1A80, symBinAddr: 0x4B390, symSize: 0x0 }
+  - { offsetInCU: 0x49, offset: 0x1AA52, size: 0x8, addend: 0x0, symName: '_$s13FBSDKShareKit18ShareUIApplicationO6sharedAA0C18InternalURLOpening_pvpZ', symObjAddr: 0x1A70, symBinAddr: 0x4B390, symSize: 0x0 }
   - { offsetInCU: 0x56, offset: 0x1AA5F, size: 0x8, addend: 0x0, symName: '_$s13FBSDKShareKit18ShareUIApplicationO6sharedAA0C18InternalURLOpening_pvau', symObjAddr: 0x0, symBinAddr: 0x286A0, symSize: 0x30 }
   - { offsetInCU: 0x90, offset: 0x1AA99, size: 0x8, addend: 0x0, symName: '_$s13FBSDKShareKit18ShareUIApplicationO6shared_WZ', symObjAddr: 0x30, symBinAddr: 0x286D0, symSize: 0x30 }
   - { offsetInCU: 0xCF, offset: 0x1AAD8, size: 0x8, addend: 0x0, symName: '_$s13FBSDKShareKit18ShareUIApplicationOMa', symObjAddr: 0x90, symBinAddr: 0x28730, symSize: 0xA }
@@ -1170,9 +1170,9 @@ relocations:
   - { offsetInCU: 0x2C3, offset: 0x1AE95, size: 0x8, addend: 0x0, symName: '_$s13FBSDKShareKit24WebShareBridgeComponentsV10parametersSDySSypGvM', symObjAddr: 0xA0, symBinAddr: 0x287E0, symSize: 0x20 }
   - { offsetInCU: 0x2D6, offset: 0x1AEA8, size: 0x8, addend: 0x0, symName: '_$s13FBSDKShareKit24WebShareBridgeComponentsV10parametersSDySSypGvM.resume.0', symObjAddr: 0xC0, symBinAddr: 0x28800, symSize: 0x10 }
   - { offsetInCU: 0x2EF, offset: 0x1AEC1, size: 0x8, addend: 0x0, symName: '_$s13FBSDKShareKit24WebShareBridgeComponentsV10methodName10parametersACSS_SDySSypGtcfC', symObjAddr: 0xD0, symBinAddr: 0x28810, symSize: 0x10 }
-  - { offsetInCU: 0x4D, offset: 0x1AF5F, size: 0x8, addend: 0x0, symName: '_$s13FBSDKShareKit10ShareVideoC22configuredDependenciesAC04TypeF0VSgvpZ', symObjAddr: 0xF640, symBinAddr: 0x4B398, symSize: 0x0 }
+  - { offsetInCU: 0x4D, offset: 0x1AF5F, size: 0x8, addend: 0x0, symName: '_$s13FBSDKShareKit10ShareVideoC22configuredDependenciesAC04TypeF0VSgvpZ', symObjAddr: 0xF630, symBinAddr: 0x4B398, symSize: 0x0 }
   - { offsetInCU: 0xC9, offset: 0x1AFDB, size: 0x8, addend: 0x0, symName: '_$s13FBSDKShareKit10ShareVideoC16TypeDependenciesV12errorFactoryAESo18FBSDKErrorCreating_p_tcfCTf4en_n', symObjAddr: 0x2700, symBinAddr: 0x2B170, symSize: 0x10 }
-  - { offsetInCU: 0xFF, offset: 0x1B011, size: 0x8, addend: 0x0, symName: '_$s13FBSDKShareKit10ShareVideoC19defaultDependenciesAC04TypeF0VSgvpZ', symObjAddr: 0xF648, symBinAddr: 0x4B3A0, symSize: 0x0 }
+  - { offsetInCU: 0xFF, offset: 0x1B011, size: 0x8, addend: 0x0, symName: '_$s13FBSDKShareKit10ShareVideoC19defaultDependenciesAC04TypeF0VSgvpZ', symObjAddr: 0xF638, symBinAddr: 0x4B3A0, symSize: 0x0 }
   - { offsetInCU: 0x1EF, offset: 0x1B101, size: 0x8, addend: 0x0, symName: '_$s13FBSDKShareKit10ShareVideoC4data10Foundation4DataVSgvgTo', symObjAddr: 0x6A0, symBinAddr: 0x29190, symSize: 0x70 }
   - { offsetInCU: 0x222, offset: 0x1B134, size: 0x8, addend: 0x0, symName: '_$s13FBSDKShareKit10ShareVideoC4data10Foundation4DataVSgvsTo', symObjAddr: 0x710, symBinAddr: 0x29200, symSize: 0x90 }
   - { offsetInCU: 0x27C, offset: 0x1B18E, size: 0x8, addend: 0x0, symName: '_$s13FBSDKShareKit10ShareVideoC10videoAssetSo7PHAssetCSgvgTo', symObjAddr: 0xAA0, symBinAddr: 0x29590, symSize: 0x30 }
@@ -1269,8 +1269,8 @@ relocations:
   - { offsetInCU: 0x1B82, offset: 0x1CA94, size: 0x8, addend: 0x0, symName: '_$s13FBSDKShareKit10ShareVideoC08validateD5Asset33_FDF33A3748CAE0B4C58C1DC7F6D56BE1LL_7optionsySo7PHAssetC_So0A13BridgeOptionsVtKFTf4ndn_n', symObjAddr: 0x2710, symBinAddr: 0x2B180, symSize: 0x220 }
   - { offsetInCU: 0x1C67, offset: 0x1CB79, size: 0x8, addend: 0x0, symName: '_$s13FBSDKShareKit10ShareVideoC4data10Foundation4DataVSgvsTf4gn_n', symObjAddr: 0x2930, symBinAddr: 0x2B3A0, symSize: 0x130 }
   - { offsetInCU: 0x1D37, offset: 0x1CC49, size: 0x8, addend: 0x0, symName: '_$s13FBSDKShareKit10ShareVideoC10videoAssetSo7PHAssetCSgvsTf4gn_n', symObjAddr: 0x2AE0, symBinAddr: 0x2B550, symSize: 0x120 }
-  - { offsetInCU: 0x49, offset: 0x1CD3B, size: 0x8, addend: 0x0, symName: '_$s13FBSDKShareKit17ShareVideoContentC22configuredDependenciesAC04TypeG0VSgvpZ', symObjAddr: 0x10730, symBinAddr: 0x4B3A8, symSize: 0x0 }
-  - { offsetInCU: 0x12A, offset: 0x1CE1C, size: 0x8, addend: 0x0, symName: '_$s13FBSDKShareKit17ShareVideoContentC19defaultDependenciesAC04TypeG0VSgvpZ', symObjAddr: 0x10768, symBinAddr: 0x4B3E0, symSize: 0x0 }
+  - { offsetInCU: 0x49, offset: 0x1CD3B, size: 0x8, addend: 0x0, symName: '_$s13FBSDKShareKit17ShareVideoContentC22configuredDependenciesAC04TypeG0VSgvpZ', symObjAddr: 0x10728, symBinAddr: 0x4B3A8, symSize: 0x0 }
+  - { offsetInCU: 0x12A, offset: 0x1CE1C, size: 0x8, addend: 0x0, symName: '_$s13FBSDKShareKit17ShareVideoContentC19defaultDependenciesAC04TypeG0VSgvpZ', symObjAddr: 0x10760, symBinAddr: 0x4B3E0, symSize: 0x0 }
   - { offsetInCU: 0x176, offset: 0x1CE68, size: 0x8, addend: 0x0, symName: '_$s13FBSDKShareKit17ShareVideoContentC5videoAA0cD0CvgTo', symObjAddr: 0x140, symBinAddr: 0x2BEE0, symSize: 0x40 }
   - { offsetInCU: 0x1C8, offset: 0x1CEBA, size: 0x8, addend: 0x0, symName: '_$s13FBSDKShareKit17ShareVideoContentC5videoAA0cD0CvsTo', symObjAddr: 0x1C0, symBinAddr: 0x2BF60, symSize: 0x60 }
   - { offsetInCU: 0x231, offset: 0x1CF23, size: 0x8, addend: 0x0, symName: '_$s13FBSDKShareKit17ShareVideoContentC10contentURL10Foundation0G0VSgvgTo', symObjAddr: 0x2B0, symBinAddr: 0x2C050, symSize: 0xB0 }
